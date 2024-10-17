@@ -1,0 +1,50 @@
+---
+settings:
+  name: On-premises ONTAP clusters
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: pt-br,us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
+sidebar:
+  entries:
+  - title: Documentos de cluster do ONTAP no local
+    url: "/index.html"
+  - title: Notas de lançamento
+    entries:
+    - title: O que há de novo
+      url: "/whats-new.html"
+    - title: Limitações conhecidas
+      url: "/reference-limitations.html"
+  - title: Comece agora
+    entries:
+    - title: Saiba mais sobre o gerenciamento de clusters do ONTAP no local
+      url: "/concept-onprem-ontap.html"
+    - title: Descubra clusters ONTAP no local
+      url: "/task-discovering-ontap.html"
+  - title: Gerenciar clusters ONTAP no local
+    entries:
+    - title: Gerenciar clusters descobertos diretamente
+      url: "/task-manage-ontap-direct.html"
+    - title: Gerenciar clusters descobertos com um conector
+      url: "/task-manage-ontap-connector.html"
+    - title: Exibir informações do cluster e detalhes do contrato
+      url: "/task-view-cluster-info.html"
+    - title: Otimize clusters com o consultor digital do BlueXP 
+      url: "/concept-aiq-digital-advisor.html"
+    - title: Remover um ambiente de trabalho do ONTAP no local
+      url: "/task-remove-on-prem.html"
+  - title: Conhecimento e apoio
+    entries:
+    - title: Registre-se para obter suporte
+      url: "/task-support-registration.html"
+    - title: Obtenha ajuda
+      url: "/task-get-help.html"
+  - title: Avisos legais
+    url: "/legal-notices.html"
+product-family:
+  name: BlueXP
+  repo: bluexp-family

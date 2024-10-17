@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task-remove-on-prem.html 
+keywords: ontap, cluster, remove, delete, remove ontap cluster, remove onprem, delete cluster, delete working environment, remove working environment 
+summary: Remova um ambiente de trabalho do ONTAP no local se não quiser mais gerenciá-lo do BlueXP . 
+---
+= Remover um ambiente de trabalho do ONTAP no local
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Remova um ambiente de trabalho do ONTAP no local se não quiser mais gerenciá-lo do BlueXP .
+
+A remoção do ambiente de trabalho não afeta o cluster do ONTAP. Você pode reencontrá-lo de BlueXP  a qualquer momento.
+
+.Passos
+. Na página Canvas, selecione o ambiente de trabalho do ONTAP no local.
+. Selecione o ícone do menu e selecione *Remover do espaço de trabalho*.
++
+image:screenshot_remove_onprem.png["Uma captura de tela que mostra o menu no canto superior direito da página e a opção Remover."]
+
+. Selecione *Remover* para confirmar.
+

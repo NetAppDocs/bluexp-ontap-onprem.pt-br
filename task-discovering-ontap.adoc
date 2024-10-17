@@ -1,0 +1,191 @@
+---
+sidebar: sidebar 
+permalink: task-discovering-ontap.html 
+keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet 
+summary: Descubra clusters do ONTAP no local da BlueXP  para começar a gerenciar volumes e a realizar gerenciamento avançado usando o ONTAP System Manager, disponível no BlueXP . 
+---
+= Descubra clusters ONTAP no local
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Descubra clusters ONTAP no local do BlueXP  para que você possa começar a gerenciar volumes e a realizar gerenciamento avançado usando o ONTAP System Manager, disponível no BlueXP .
+
+
+
+== Passo 1: Revise as opções de descoberta e gerenciamento
+
+O BlueXP  oferece duas opções de descoberta e gerenciamento para clusters ONTAP no local:
+
+Descoberta e gerenciamento usando um conetor:: Essa opção permite gerenciar clusters que executam o ONTAP 8,3 e posterior usando os seguintes recursos:
++
+--
+* A vista padrão, que fornece operações básicas de volume
+* A visualização avançada, que fornece gerenciamento por meio do Gerenciador de sistema (compatível com ONTAP 9.10,0 e posterior)
+* Integração com os serviços do BlueXP  que fornecem replicação, backup e recuperação, classificação de dados e disposição em camadas de dados
+
+
+Essa opção requer um conetor, que pode ser instalado em um provedor de nuvem ou no local.
+
+--
+Descoberta e gerenciamento diretos:: Essa opção permite gerenciar clusters executando o ONTAP 9.12,1 e posterior usando o Gerenciador de sistema. Não há outras opções de gerenciamento disponíveis. Não é possível usar a visualização padrão e não é possível ativar os serviços BlueXP .
++
+--
+Esta opção não requer um conetor.
+
+Quando você acessa o Gerenciador do sistema em um cluster ONTAP no local executando o 9.12.1 ou posterior com conectividade ao serviço BlueXP , será solicitado que você gerencie o cluster diretamente do BlueXP . Se você seguir esse prompt, ele detetará o cluster no BlueXP  usando a opção de descoberta direta.
+
+--
+
+
+Uma vez descoberto, seus clusters estão disponíveis como um ambiente de trabalho no BlueXP  Canvas.
+
+Se você decidir usar a outra opção de descoberta posteriormente, precisará descobrir o cluster no local como um ambiente de trabalho separado no Canvas. Em seguida, tem a opção de remover o outro ambiente de trabalho.
+
+
+
+== Passo 2: Configure seu ambiente
+
+Antes de descobrir seus clusters ONTAP no local, garanta que você atendeu aos requisitos a seguir.
+
+Requisitos gerais::
++
+--
+* Você deve ter começado com o BlueXP , que inclui fazer login e configurar uma conta. https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["Saiba como começar a usar o BlueXP"^]
+* Você precisa do endereço IP de gerenciamento de cluster e da senha para a conta de usuário admin.
+* O BlueXP  descobre clusters do ONTAP usando HTTPS. Se você usar políticas de firewall personalizadas, o cluster do ONTAP deverá permitir o acesso HTTPS de entrada através da porta 443.
++
+A política de firewall "mgmt" padrão permite o acesso HTTPS de entrada de todos os endereços IP. Se você modificou essa política padrão, ou se criou sua própria política de firewall, associe o protocolo HTTPS a essa política e habilite o acesso do host do conetor.
+
+
+
+--
+Requisitos para a descoberta de conetores::
++
+--
+* O cluster no local deve estar executando o ONTAP 8,3 ou posterior.
+* Um conetor deve ser instalado em um fornecedor de nuvem ou no local.
++
+Se você quiser categorizar dados inativos na nuvem, leia os requisitos do conector com base em onde planeja categorizar dados inativos.
+
++
+** https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Saiba mais sobre conetores"^]
+** https://docs.netapp.com/us-en/bluexp-setup-admin/task-manage-multiple-connectors.html["Saiba como alternar entre vários conetores"^]
+** https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["Saiba mais sobre a disposição em camadas do BlueXP "^]
+
+
+* O host do conetor deve permitir conexões de saída através da porta 443 (HTTPS) e o cluster ONTAP deve permitir acesso HTTP de entrada através da porta 443 para o LIF de gerenciamento de cluster.
++
+Se o conetor estiver na nuvem, toda a comunicação de saída é permitida pelo grupo de segurança predefinido.
+
+
+
+--
+Requisitos para descoberta direta::
++
+--
+* O cluster no local deve estar executando o ONTAP 9.12,1 ou posterior.
+* O cluster precisa ter conectividade de entrada e saída para o serviço BlueXP :
++
+https://cloudmanager.cloud.NetApp.com/ONTAP-service/check-service-conexão
+
+* O computador que você está usando para acessar o console do BlueXP  deve ter uma conexão de rede com o cluster do ONTAP no local, semelhante a como você forneceria conexões com outros recursos em sua rede privada.
+
+
+--
+
+
+
+
+== Passo 3: Descubra um cluster
+
+Descubra seus clusters ONTAP no local a partir do Canvas de duas maneiras:
+
+* A partir de *Canvas > Meus ambientes de trabalho* adicionando manualmente detalhes sobre o cluster ONTAP no local.
+* A partir de *Canvas > My ESTATE* selecionando um cluster que o BlueXP  pré-descobriu com base nos clusters do ONTAP associados ao endereço de e-mail do seu login no BlueXP .
+
+
+Quando você inicia o processo de descoberta, o BlueXP  descobre um cluster da seguinte forma:
+
+* Se você tiver um conetor ativo que tenha uma conexão com um cluster ONTAP, o BlueXP  usará esse conetor para descobrir e gerenciar o cluster.
+* Se você não tiver um conetor ou se o conetor não tiver uma conexão com o cluster ONTAP, o BlueXP  usará automaticamente a opção de descoberta direta e gerenciamento.
+
+
+[role="tabbed-block"]
+====
+.Descobrir um cluster manualmente
+--
+Descubra um cluster ONTAP no local no BlueXP  inserindo o endereço IP de gerenciamento de cluster e a senha da conta de usuário admin.
+
+.Passos
+. No menu de navegação, selecione *Storage > Canvas*.
+. Na página Canvas, selecione *Adicionar ambiente de trabalho > no local*.
+. Ao lado do ONTAP no local, selecione *Discover*.
+. Na página _Discover_, insira o endereço IP de gerenciamento de cluster e a senha da conta de usuário admin.
+. Se você estiver descobrindo o cluster diretamente (sem um conetor), você pode selecionar *Salvar as credenciais*.
++
+Se selecionar esta opção, não será necessário introduzir novamente as credenciais sempre que abrir o ambiente de trabalho. Essas credenciais estão associadas apenas ao login de usuário do BlueXP . Eles não são salvos para uso por mais ninguém na organização BlueXP .
+
+. Selecione *Discover*.
++
+Se você não tiver um conetor e o endereço IP não estiver acessível a partir do BlueXP , será solicitado que você crie um conetor.
+
+
+
+.Resultado
+BlueXP  descobre o cluster e o adiciona como um ambiente de trabalho no Canvas. Agora você pode começar a gerenciar o cluster.
+
+* link:task-manage-ontap-direct.html["Saiba como gerenciar clusters descobertos diretamente"]
+* link:task-manage-ontap-connector.html["Saiba como gerenciar clusters descobertos com um conetor"]
+
+
+--
+.Adicione um cluster pré-descoberto
+--
+O BlueXP  descobre automaticamente informações sobre os clusters do ONTAP associados ao endereço de e-mail do seu login no BlueXP  e as exibe na página *meu estado* como clusters não descobertos. Você pode exibir a lista de clusters não descobertos e adicioná-los um de cada vez.
+
+.Sobre esta tarefa
+Observe o seguinte sobre os clusters ONTAP no local que aparecem na página meu estado:
+
+* O endereço de e-mail que você usa para fazer login no BlueXP  deve estar associado a uma conta registrada do site de suporte da NetApp (NSS) de nível completo.
++
+** Se você fizer login no BlueXP  com sua conta do NSS e navegar até a página meu estado, o BlueXP  usará essa conta do NSS para localizar os clusters associados à conta.
+** Se você fizer login no BlueXP  com uma conta na nuvem ou uma conexão federada e navegar até a página meu estado, o BlueXP  solicitará que você verifique seu e-mail. Se esse endereço de e-mail estiver associado a uma conta do NSS, o BlueXP  usará essas informações para localizar os clusters associados à conta.
+
+
+* O BlueXP  mostra apenas os clusters ONTAP que enviaram mensagens AutoSupport com êxito para o NetApp.
+* Para atualizar a lista de inventário, saia da página minha propriedade, aguarde 5 minutos e volte para ela.
+
+
+.Passos
+. No menu de navegação, selecione *Storage > Canvas*.
+. Selecione *My ESTATE*.
+. Na página My ESTATE, selecione *Discover* para ONTAP no local.
++
+image:screenshot-my-estate-ontap.png["Uma captura de tela da página My ESTATE que mostra 12 clusters ONTAP on-premises não descobertos."]
+
+. Selecione um cluster e, em seguida, selecione *Discover*.
++
+image:screenshot-my-estate-ontap-discover.png["Uma captura de tela da página My ESTATE que mostra 12 clusters ONTAP on-premises não descobertos."]
+
+. Introduza a palavra-passe da conta de utilizador admin.
+. Selecione *Discover*.
++
+Se você não tiver um conetor e o endereço IP não estiver acessível a partir do BlueXP , será solicitado que você crie um conetor.
+
+
+
+.Resultado
+BlueXP  descobre o cluster e o adiciona como um ambiente de trabalho no Canvas. Agora você pode começar a gerenciar o cluster.
+
+* link:task-manage-ontap-direct.html["Saiba como gerenciar clusters descobertos diretamente"]
+* link:task-manage-ontap-connector.html["Saiba como gerenciar clusters descobertos com um conetor"]
+
+
+--
+====

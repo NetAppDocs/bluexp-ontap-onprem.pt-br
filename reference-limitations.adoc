@@ -1,0 +1,71 @@
+---
+sidebar: sidebar 
+permalink: reference-limitations.html 
+keywords: limitations, system manager, unsupported features 
+summary: As limitações conhecidas identificam plataformas, dispositivos ou funções que não são suportadas por esta versão do produto ou que não interoperam corretamente com ele. Revise essas limitações com cuidado. 
+---
+= Limitações conhecidas
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+As limitações conhecidas identificam plataformas, dispositivos ou funções que não são suportadas por esta versão do produto ou que não interoperam corretamente com ele. Revise essas limitações com cuidado.
+
+
+
+== Limitações relacionadas aos sistemas ASA R2
+
+* Você pode descobrir os sistemas NetApp ASA R2 no BlueXP  ao usar o BlueXP  no modo padrão ou no modo restrito. A descoberta de sistemas ASA R2 não é suportada ao usar o BlueXP  no modo privado.
+* Depois de descobrir um sistema NetApp ASA R2 e abrir o ambiente de trabalho, você será levado diretamente para o Gerenciador de sistemas.
++
+Não há outras opções de gerenciamento disponíveis com os sistemas ASA R2. Não é possível usar a visualização padrão e não é possível ativar os serviços BlueXP .
+
+
+
+https://docs.netapp.com/us-en/asa-r2/index.html["Saiba mais sobre os sistemas ASA R2"^]
+
+
+
+== Clusters não suportados
+
+Os clusters ONTAP no local configurados com autenticação SAML não são compatíveis com o BlueXP .
+
+
+
+== Limitações do System Manager
+
+Os seguintes recursos do Gerenciador de sistema não são suportados pelo BlueXP :
+
+* Configuração do cluster
++
+Depois de definir o endereço IP de gerenciamento e configurar a senha de administrador em um cluster ONTAP local, você poderá descobrir o cluster no BlueXP .
+
+* Controle de acesso baseado em função (somente conetor)
++
+Os controles de acesso baseados em função do System Manager não são compatíveis ao descobrir e gerenciar um cluster ONTAP on-premise usando um conetor. Você será solicitado a inserir suas credenciais de administrador durante o processo de descoberta. Essas credenciais são usadas para todas as ações realizadas pelo System Manager.
+
++
+Com a opção de descoberta direta, você será solicitado a fazer login com suas credenciais do ONTAP sempre que abrir o ambiente de trabalho.
+
+* Ativação do backup e recuperação do BlueXP  (backup em nuvem)
++
+A versão do cluster deve ser 9.13.1 para habilitar o backup e a recuperação do BlueXP  a partir do Gerenciador de sistemas.
+
++
+Se _not_ descobrir um cluster usando um conetor, então você não pode usar o System Manager (visualização avançada) para habilitar o backup e a recuperação. No entanto, você pode habilitar o backup e a recuperação em um cluster no local diretamente a partir do BlueXP . https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["Saiba como começar"^]
+
+* Atualizações sob demanda
++
+As atualizações sob demanda de firmware e software não estão disponíveis se a versão do cluster for ONTAP 9.9,1 ou anterior.
+
++
+Se _não_ tiver um conetor, não poderá fazer atualizações a partir da sua máquina local, apenas a partir de um servidor que pode ser acedido através do BlueXP .
+
+* Pesquisa global
+* Definições da interface do utilizador
+

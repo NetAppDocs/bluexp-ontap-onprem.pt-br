@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="afecfcae87b8b8aa94335648c348ba12" category="summary">O consultor digital do BlueXP  permite otimizar as operações, a segurança e a performance dos clusters do ONTAP.</block>
+  <block id="3d47a3f36b63e7d673bae6921c58af01" category="doc">Otimize clusters com o consultor digital do BlueXP </block>
+  <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">Caraterísticas</block>
+  <block id="f134e1429d83afa20e6cf1b79e3d20c9" category="paragraph">Você pode ver o status geral do seu sistema de storage, informações de alto nível sobre o bem-estar do sistema, inventário, Planejamento, atualizações e insights valiosos em um nível de lista de observação usando o consultor digital do BlueXP .</block>
+  <block id="cd5d4df84a7902a777304de9ff13e8a8" category="list-text">Analisar e otimizar a integridade dos sistemas de storage</block>
+  <block id="9d4e486fd4968dd03a1921222e688c12" category="list-text">Obtenha insights sobre todos os riscos para seus sistemas de storage e ações para reduzir os riscos</block>
+  <block id="4c8438807538fa50db0d24cda516c562" category="list-text">Analise o desempenho dos seus dispositivos de armazenamento visualizando o formato gráfico dos dados de desempenho</block>
+  <block id="63a792f0efaeee81d9e7f3ba251637c2" category="list-text">Obtenha detalhes sobre sistemas que excederam 90% de capacidade ou estão próximos de 90% de capacidade</block>
+  <block id="25bab72d979d2f781310fbd8a7510d1e" category="list-text">Obtenha informações sobre o hardware e o software que expiraram ou estão prestes a expirar nos próximos 6 meses</block>
+  <block id="c0b44a835cfaa8886063c96fb9342411" category="list-text">Atualize o software do sistema de storage e atualize o firmware do ONTAP usando o Ansible</block>
+  <block id="696fbf3ecd0e89c737f9c5b7adddfb8e" category="section-title">Sistemas ONTAP suportados</block>
+  <block id="7e4f93e083961067c61f20abc47bc2d3" category="paragraph">O consultor digital fornece informações para todos os sistemas ONTAP locais e sistemas Cloud Volumes ONTAP associados à sua conta do site de suporte da NetApp (NSS).</block>
+  <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="section-title">Mais informações</block>
+  <block id="a97bd659401a9123a280fa1ec2f34874" category="inline-link">Documentação do consultor digital</block>
+  <block id="ac26a062f287ef22a73c3d66ac423fc6" category="paragraph"><block ref="ac26a062f287ef22a73c3d66ac423fc6" category="inline-link-rx"></block></block>
+  <block id="64b5ac71fb7ec208d91ceb7344aa0b37" category="summary">O BlueXP  pode descobrir os clusters ONTAP executados em controladoras AFF/FAS e ONTAP Select. A adição de sistemas ONTAP locais ao BlueXP  permite que você gerencie todos os ativos de storage e dados em uma única interface.</block>
+  <block id="1822d12a7b10a50fdd93b84fc0c9f70e" category="doc">Saiba mais sobre o gerenciamento de clusters do ONTAP no BlueXP  no local</block>
+  <block id="fb24315d532abea28c978f8643868013" category="list-text">Gerenciar volumes NFS e CIFS</block>
+  <block id="3c5335f4270215aa7b16adf996cdf82d" category="list-text">Execute o gerenciamento avançado usando o Gerenciador do sistema do ONTAP</block>
+  <block id="f040aeb46f1ebe5c4940eb6054748170" category="list-text">Tenha observabilidade de integridade e performance com análise e controle do BlueXP </block>
+  <block id="55fd1b0a10f3ffa4fd854f3b58535a0d" category="list-text">Use os serviços do BlueXP  para replicar, fazer backup, verificar, classificar e categorizar dados</block>
+  <block id="e6855a96bbe46265b9ff5968ea2f7ea1" category="list-text">Veja as informações de status do contrato de hardware e software na carteira digital da BlueXP </block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">Custo</block>
+  <block id="4021c0d07bda2ea80ded248828507d76" category="paragraph">Um custo pode estar associado, mas depende do seguinte:</block>
+  <block id="f0ec06c8888b911820be6e1fcc689c0b" category="list-text">Quer você implante um conetor para descobrir e gerenciar seus clusters.</block>
+  <block id="0d29d27599c2af161506dbd9dbafba3f" category="paragraph">É possível instalar o conector na nuvem ou no local.</block>
+  <block id="df72ae90e7d4142f112bbc2859e6948b" category="list-text">Não importa se você usa serviços do BlueXP , como backup e recuperação, disposição em categorias e classificação.</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Avisos legais</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Avisos legais fornecem acesso a declarações de direitos autorais, marcas registradas, patentes e muito mais.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Direitos de autor</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marcas comerciais</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, o logotipo DA NetApp e as marcas listadas na página de marcas comerciais da NetApp são marcas comerciais da NetApp, Inc. Outros nomes de produtos e empresas podem ser marcas comerciais de seus respetivos proprietários.</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Patentes</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Uma lista atual de patentes de propriedade da NetApp pode ser encontrada em:</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Política de privacidade</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Código aberto</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Os arquivos de aviso fornecem informações sobre direitos autorais de terceiros e licenças usadas no software NetApp.</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">Aviso para BlueXP</block>
+  <block id="52ba8ac12050d2494572b940a0d65b25" category="paragraph"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
+  <block id="1eba71d64e6c5e410e558530711e835b" category="summary">As limitações conhecidas identificam plataformas, dispositivos ou funções que não são suportadas por esta versão do produto ou que não interoperam corretamente com ele. Revise essas limitações com cuidado.</block>
+  <block id="482723983a4f2af954e36ff41e567451" category="doc">Limitações conhecidas</block>
+  <block id="835e40a074ba47935e3e68e3452eb52f" category="section-title">Limitações relacionadas aos sistemas ASA R2</block>
+  <block id="4f59dac344ae97a32d47fe32ee94249f" category="list-text">Você pode descobrir os sistemas NetApp ASA R2 no BlueXP  ao usar o BlueXP  no modo padrão ou no modo restrito. A descoberta de sistemas ASA R2 não é suportada ao usar o BlueXP  no modo privado.</block>
+  <block id="0bf2301f5cb3996192947186158c2e09" category="list-text">Depois de descobrir um sistema NetApp ASA R2 e abrir o ambiente de trabalho, você será levado diretamente para o Gerenciador de sistemas.</block>
+  <block id="d5861f4539296095cd7c9fdfd0c5a2c9" category="paragraph">Não há outras opções de gerenciamento disponíveis com os sistemas ASA R2. Não é possível usar a visualização padrão e não é possível ativar os serviços BlueXP .</block>
+  <block id="989977a18a476a92018e04dd60ec37c1" category="inline-link">Saiba mais sobre os sistemas ASA R2</block>
+  <block id="a7c7539e11570decc041c60258667032" category="paragraph"><block ref="a7c7539e11570decc041c60258667032" category="inline-link-rx"></block></block>
+  <block id="51f9789c1f459351ccbb34c7b6043a74" category="section-title">Clusters não suportados</block>
+  <block id="b9dbfde306bbf057c758e6f86b276382" category="paragraph">Os clusters ONTAP no local configurados com autenticação SAML não são compatíveis com o BlueXP .</block>
+  <block id="3b4a393ec2775335fff67bde36ea1a2c" category="section-title">Limitações do System Manager</block>
+  <block id="863293364989cec504101494f7916b90" category="paragraph">Os seguintes recursos do Gerenciador de sistema não são suportados pelo BlueXP :</block>
+  <block id="e710f9addfdf1e48c1320d497696c4fc" category="list-text">Configuração do cluster</block>
+  <block id="261bc811b9bbbc3734400b9346c7fb8c" category="paragraph">Depois de definir o endereço IP de gerenciamento e configurar a senha de administrador em um cluster ONTAP local, você poderá descobrir o cluster no BlueXP .</block>
+  <block id="ef8d24c115f07ff9475a999250c2a5d8" category="list-text">Controle de acesso baseado em função (somente conetor)</block>
+  <block id="4a2ee857fe0aa1483d07a75bf8d71bec" category="paragraph">Os controles de acesso baseados em função do System Manager não são compatíveis ao descobrir e gerenciar um cluster ONTAP on-premise usando um conetor. Você será solicitado a inserir suas credenciais de administrador durante o processo de descoberta. Essas credenciais são usadas para todas as ações realizadas pelo System Manager.</block>
+  <block id="75116741b7b623681d2dd352ea2ef388" category="paragraph">Com a opção de descoberta direta, você será solicitado a fazer login com suas credenciais do ONTAP sempre que abrir o ambiente de trabalho.</block>
+  <block id="34c1945f842cdbb42113c3fcd2112f01" category="list-text">Ativação do backup e recuperação do BlueXP  (backup em nuvem)</block>
+  <block id="760e4f8eb4309ef6902a64eef43dd0ad" category="paragraph">A versão do cluster deve ser 9.13.1 para habilitar o backup e a recuperação do BlueXP  a partir do Gerenciador de sistemas.</block>
+  <block id="7d782479a41a3941b57cc7c2b60d318a" category="inline-link">Saiba como começar</block>
+  <block id="47244a3ad2d3de893018537dc415ceaa" category="paragraph">Se _not_ descobrir um cluster usando um conetor, então você não pode usar o System Manager (visualização avançada) para habilitar o backup e a recuperação. No entanto, você pode habilitar o backup e a recuperação em um cluster no local diretamente a partir do BlueXP .<block ref="e3bdf105d163a62b1d83e3f92f872319" category="inline-link-rx"></block></block>
+  <block id="dc7f30ec5bd878efd2189fe1b0703118" category="list-text">Atualizações sob demanda</block>
+  <block id="9eb06491d0dc3d6fae682e802616dce9" category="paragraph">As atualizações sob demanda de firmware e software não estão disponíveis se a versão do cluster for ONTAP 9.9,1 ou anterior.</block>
+  <block id="09dfe5e2e7b8574b925ad72bc7875409" category="paragraph">Se _não_ tiver um conetor, não poderá fazer atualizações a partir da sua máquina local, apenas a partir de um servidor que pode ser acedido através do BlueXP .</block>
+  <block id="cff5bc039637fff679fead59b27d79c4" category="list-text">Pesquisa global</block>
+  <block id="382f24d48bc1efa5dd974e166ac8df58" category="list-text">Definições da interface do utilizador</block>
+  <block id="623e1951042cd3019a0cc38bf7556bee" category="summary">Descubra clusters do ONTAP no local da BlueXP  para começar a gerenciar volumes e a realizar gerenciamento avançado usando o ONTAP System Manager, disponível no BlueXP .</block>
+  <block id="c5fbee6586294d81141f8dd158707985" category="doc">Descubra clusters ONTAP no local</block>
+  <block id="eacd3ed630ae5b36126bd8cf27a43632" category="paragraph">Descubra clusters ONTAP no local do BlueXP  para que você possa começar a gerenciar volumes e a realizar gerenciamento avançado usando o ONTAP System Manager, disponível no BlueXP .</block>
+  <block id="d3d762abdaccb1dfe422eda709146098" category="section-title">Passo 1: Revise as opções de descoberta e gerenciamento</block>
+  <block id="0955e7586176682941c1bba912eb5cc4" category="paragraph">O BlueXP  oferece duas opções de descoberta e gerenciamento para clusters ONTAP no local:</block>
+  <block id="58bc91c6986031a5bbfcc403ec8f4e40" category="list-text">Descoberta e gerenciamento usando um conetor</block>
+  <block id="a3736487d08fb63c22adeaf7035f0bca" category="list-text">Essa opção permite gerenciar clusters que executam o ONTAP 8,3 e posterior usando os seguintes recursos:</block>
+  <block id="dad407e605b93746e62dec356ab5303e" category="list-text">A vista padrão, que fornece operações básicas de volume</block>
+  <block id="05280ae0f52dfc03d23962982cf79f21" category="list-text">A visualização avançada, que fornece gerenciamento por meio do Gerenciador de sistema (compatível com ONTAP 9.10,0 e posterior)</block>
+  <block id="c0dfb4f052c58a84c6f41e4a6de3caae" category="list-text">Integração com os serviços do BlueXP  que fornecem replicação, backup e recuperação, classificação de dados e disposição em camadas de dados</block>
+  <block id="e9b3b1686b45ea49547763029f379272" category="paragraph">Essa opção requer um conetor, que pode ser instalado em um provedor de nuvem ou no local.</block>
+  <block id="ed2669e12a2aca1d23d0391fe9aa4d4f" category="list-text">Descoberta e gerenciamento diretos</block>
+  <block id="551bc5d8466ddd3cdacf44099db1c7ab" category="list-text">Essa opção permite gerenciar clusters executando o ONTAP 9.12,1 e posterior usando o Gerenciador de sistema. Não há outras opções de gerenciamento disponíveis. Não é possível usar a visualização padrão e não é possível ativar os serviços BlueXP .</block>
+  <block id="d7aa3f7ee53003f5d75a0f500ddb1e6a" category="paragraph">Esta opção não requer um conetor.</block>
+  <block id="f75478b929f43a364a455cc34445b807" category="paragraph">Quando você acessa o Gerenciador do sistema em um cluster ONTAP no local executando o 9.12.1 ou posterior com conectividade ao serviço BlueXP , será solicitado que você gerencie o cluster diretamente do BlueXP . Se você seguir esse prompt, ele detetará o cluster no BlueXP  usando a opção de descoberta direta.</block>
+  <block id="5883223e097bdc0962b33579a610a819" category="paragraph">Uma vez descoberto, seus clusters estão disponíveis como um ambiente de trabalho no BlueXP  Canvas.</block>
+  <block id="797c4c6d452fc60610219b263c22393d" category="paragraph">Se você decidir usar a outra opção de descoberta posteriormente, precisará descobrir o cluster no local como um ambiente de trabalho separado no Canvas. Em seguida, tem a opção de remover o outro ambiente de trabalho.</block>
+  <block id="663060c661d21dbe1c32242cc8731f0e" category="section-title">Passo 2: Configure seu ambiente</block>
+  <block id="6e66f27267404b1c78540790e471bc32" category="paragraph">Antes de descobrir seus clusters ONTAP no local, garanta que você atendeu aos requisitos a seguir.</block>
+  <block id="a1a264e616e24563d4b8f8b5795ea403" category="list-text">Requisitos gerais</block>
+  <block id="89e019c15bf54627a2a1e4918e66bab6" category="inline-link">Saiba como começar a usar o BlueXP</block>
+  <block id="051ffa63d019158ee74f0c9b63be5dab" category="list-text">Você deve ter começado com o BlueXP , que inclui fazer login e configurar uma conta. <block ref="0377f2dd7cfc90832cf86e4cdea18b27" category="inline-link-rx"></block></block>
+  <block id="7d0b01345a5038f25fdd17dc04d8872e" category="list-text">Você precisa do endereço IP de gerenciamento de cluster e da senha para a conta de usuário admin.</block>
+  <block id="95773f82d1d681361d7f2215f3912515" category="list-text">O BlueXP  descobre clusters do ONTAP usando HTTPS. Se você usar políticas de firewall personalizadas, o cluster do ONTAP deverá permitir o acesso HTTPS de entrada através da porta 443.</block>
+  <block id="6f9f6c9a212736eda9e7ebc73ff5b991" category="paragraph">A política de firewall "mgmt" padrão permite o acesso HTTPS de entrada de todos os endereços IP. Se você modificou essa política padrão, ou se criou sua própria política de firewall, associe o protocolo HTTPS a essa política e habilite o acesso do host do conetor.</block>
+  <block id="860b5a921910be87e98249197300aeb3" category="list-text">Requisitos para a descoberta de conetores</block>
+  <block id="8ab7236e714d67d0d2cdb0f6c0c6bdea" category="list-text">O cluster no local deve estar executando o ONTAP 8,3 ou posterior.</block>
+  <block id="95ef150c4c1c6bc6be1dda757b58c70c" category="list-text">Um conetor deve ser instalado em um fornecedor de nuvem ou no local.</block>
+  <block id="cb754929bd2884eb53bfc39ddd5aadad" category="paragraph">Se você quiser categorizar dados inativos na nuvem, leia os requisitos do conector com base em onde planeja categorizar dados inativos.</block>
+  <block id="e6e80588e9fe7cf89218fea44300f7ca" category="inline-link">Saiba mais sobre conetores</block>
+  <block id="02156a4727415877195dc5302fa69275" category="list-text"><block ref="02156a4727415877195dc5302fa69275" category="inline-link-rx"></block></block>
+  <block id="2c907b6caf1e28d6079ea82a7c2dae43" category="inline-link">Saiba como alternar entre vários conetores</block>
+  <block id="74702430dfc941eaabc5007d9e5554f6" category="list-text"><block ref="74702430dfc941eaabc5007d9e5554f6" category="inline-link-rx"></block></block>
+  <block id="e920ef862d77b3f54bb7bf3e535062a3" category="inline-link">Saiba mais sobre a disposição em camadas do BlueXP </block>
+  <block id="0831a12ebe326ec4e6566367bf5ee293" category="list-text"><block ref="0831a12ebe326ec4e6566367bf5ee293" category="inline-link-rx"></block></block>
+  <block id="3ebda767e5f86db4657a423fd661132a" category="list-text">O host do conetor deve permitir conexões de saída através da porta 443 (HTTPS) e o cluster ONTAP deve permitir acesso HTTP de entrada através da porta 443 para o LIF de gerenciamento de cluster.</block>
+  <block id="2b9e44ec073f65b2847ecb4d29f27fb3" category="paragraph">Se o conetor estiver na nuvem, toda a comunicação de saída é permitida pelo grupo de segurança predefinido.</block>
+  <block id="be8c0cb1018ac37d4931901b25f4d7b8" category="list-text">Requisitos para descoberta direta</block>
+  <block id="971b56bb19698ede33f8f4ef782f3774" category="list-text">O cluster no local deve estar executando o ONTAP 9.12,1 ou posterior.</block>
+  <block id="d8140eebe21fbc87913a211d15aa72f0" category="list-text">O cluster precisa ter conectividade de entrada e saída para o serviço BlueXP :</block>
+  <block id="3693065b074c131d0dd4c103327a1d7b" category="paragraph">https://cloudmanager.cloud.NetApp.com/ONTAP-service/check-service-conexão</block>
+  <block id="03be90bdc455bf51f8b56b71203c2e11" category="list-text">O computador que você está usando para acessar o console do BlueXP  deve ter uma conexão de rede com o cluster do ONTAP no local, semelhante a como você forneceria conexões com outros recursos em sua rede privada.</block>
+  <block id="f06497cae9ab6e78fd37893cdca029bd" category="section-title">Passo 3: Descubra um cluster</block>
+  <block id="9d96bd9b544805d33ce76bcba91e4c62" category="paragraph">Descubra seus clusters ONTAP no local a partir do Canvas de duas maneiras:</block>
+  <block id="e2283afc49db55afcdc12825748b74cc" category="list-text">A partir de *Canvas &gt; Meus ambientes de trabalho* adicionando manualmente detalhes sobre o cluster ONTAP no local.</block>
+  <block id="a5c0c470fe95d7a64c3b5fcb2a94828e" category="list-text">A partir de *Canvas &gt; My ESTATE* selecionando um cluster que o BlueXP  pré-descobriu com base nos clusters do ONTAP associados ao endereço de e-mail do seu login no BlueXP .</block>
+  <block id="2e064277badcd21c62e8fd2c2f433487" category="paragraph">Quando você inicia o processo de descoberta, o BlueXP  descobre um cluster da seguinte forma:</block>
+  <block id="070663698acc2c2608384f63852f1471" category="list-text">Se você tiver um conetor ativo que tenha uma conexão com um cluster ONTAP, o BlueXP  usará esse conetor para descobrir e gerenciar o cluster.</block>
+  <block id="1f98df6cf22b8e11ecbe762c7b523860" category="list-text">Se você não tiver um conetor ou se o conetor não tiver uma conexão com o cluster ONTAP, o BlueXP  usará automaticamente a opção de descoberta direta e gerenciamento.</block>
+  <block id="c77ba8df974ac9ac198176dcff4f8f52" category="open-title">Descobrir um cluster manualmente</block>
+  <block id="8c3cbd392f1e7d6c008b581f7fc4fc9b" category="paragraph">Descubra um cluster ONTAP no local no BlueXP  inserindo o endereço IP de gerenciamento de cluster e a senha da conta de usuário admin.</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Passos</block>
+  <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">No menu de navegação, selecione *Storage &gt; Canvas*.</block>
+  <block id="4e206327ecb5a9834b615078326acaec" category="list-text">Na página Canvas, selecione *Adicionar ambiente de trabalho &gt; no local*.</block>
+  <block id="2901a10a7b1d7a91ad19913b88e371a6" category="list-text">Ao lado do ONTAP no local, selecione *Discover*.</block>
+  <block id="1de006c684d29369fa4392137f9a3894" category="list-text">Na página _Discover_, insira o endereço IP de gerenciamento de cluster e a senha da conta de usuário admin.</block>
+  <block id="f7372fe2a1c7b50e7c7d583296559005" category="list-text">Se você estiver descobrindo o cluster diretamente (sem um conetor), você pode selecionar *Salvar as credenciais*.</block>
+  <block id="d6d8595ab679ddd5917a4c73498d2be0" category="paragraph">Se selecionar esta opção, não será necessário introduzir novamente as credenciais sempre que abrir o ambiente de trabalho. Essas credenciais estão associadas apenas ao login de usuário do BlueXP . Eles não são salvos para uso por mais ninguém na organização BlueXP .</block>
+  <block id="6717014f0e48b7ab08c9846925b42c93" category="list-text">Selecione *Discover*.</block>
+  <block id="37ec2d4ffcb59f0218e30feb37bff04e" category="paragraph">Se você não tiver um conetor e o endereço IP não estiver acessível a partir do BlueXP , será solicitado que você crie um conetor.</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">Resultado</block>
+  <block id="150f022493510e4fc7851b23e0afdee7" category="paragraph">BlueXP  descobre o cluster e o adiciona como um ambiente de trabalho no Canvas. Agora você pode começar a gerenciar o cluster.</block>
+  <block id="299867ed6070a6cda18ae92e5d434213" category="inline-link-macro">Saiba como gerenciar clusters descobertos diretamente</block>
+  <block id="c3995876aaed94f3589c1d9b516d3805" category="list-text"><block ref="c3995876aaed94f3589c1d9b516d3805" category="inline-link-macro-rx"></block></block>
+  <block id="b1f50daaafce361695fc65132af507a0" category="inline-link-macro">Saiba como gerenciar clusters descobertos com um conetor</block>
+  <block id="2dad31dff556d88636e28fd5a3f6e2ac" category="list-text"><block ref="2dad31dff556d88636e28fd5a3f6e2ac" category="inline-link-macro-rx"></block></block>
+  <block id="50bc63d3ce96c1c059c531930e9b1ccc" category="open-title">Adicione um cluster pré-descoberto</block>
+  <block id="9531ad82bf5dc45f66f60a601474ec73" category="paragraph">O BlueXP  descobre automaticamente informações sobre os clusters do ONTAP associados ao endereço de e-mail do seu login no BlueXP  e as exibe na página *meu estado* como clusters não descobertos. Você pode exibir a lista de clusters não descobertos e adicioná-los um de cada vez.</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">Sobre esta tarefa</block>
+  <block id="8b88ed64b6b30080910756ab3a0ea719" category="paragraph">Observe o seguinte sobre os clusters ONTAP no local que aparecem na página meu estado:</block>
+  <block id="06730fe7ddb260af67563763fb1cff3f" category="list-text">O endereço de e-mail que você usa para fazer login no BlueXP  deve estar associado a uma conta registrada do site de suporte da NetApp (NSS) de nível completo.</block>
+  <block id="05df8b76be995f5a9cfa0f9805c5c671" category="list-text">Se você fizer login no BlueXP  com sua conta do NSS e navegar até a página meu estado, o BlueXP  usará essa conta do NSS para localizar os clusters associados à conta.</block>
+  <block id="9db4c476e2e5483cdbf8e71023278b72" category="list-text">Se você fizer login no BlueXP  com uma conta na nuvem ou uma conexão federada e navegar até a página meu estado, o BlueXP  solicitará que você verifique seu e-mail. Se esse endereço de e-mail estiver associado a uma conta do NSS, o BlueXP  usará essas informações para localizar os clusters associados à conta.</block>
+  <block id="cf28359d03fa5d995d85df0a5ebb62c8" category="list-text">O BlueXP  mostra apenas os clusters ONTAP que enviaram mensagens AutoSupport com êxito para o NetApp.</block>
+  <block id="9e5b23122dc2a6feb6587ea531e0634e" category="list-text">Para atualizar a lista de inventário, saia da página minha propriedade, aguarde 5 minutos e volte para ela.</block>
+  <block id="0c136b2a4c8e3fbb938288c9e135d82b" category="list-text">Selecione *My ESTATE*.</block>
+  <block id="ff24e889350068d5df46c75b1da1f5af" category="list-text">Na página My ESTATE, selecione *Discover* para ONTAP no local.</block>
+  <block id="eb0bc6fee7fc89460407cbab71c71faf" category="inline-image-macro">Uma captura de tela da página My ESTATE que mostra 12 clusters ONTAP on-premises não descobertos.</block>
+  <block id="9ea83282503d3d948b041ef70d87101f" category="paragraph"><block ref="9ea83282503d3d948b041ef70d87101f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7689e37bac08b82f66558bf21e5ea57d" category="list-text">Selecione um cluster e, em seguida, selecione *Discover*.</block>
+  <block id="f44b1e23b4e1566aa16d4b2b0be52eb8" category="paragraph"><block ref="f44b1e23b4e1566aa16d4b2b0be52eb8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eecdf85dabb12fb229d35075dd322550" category="list-text">Introduza a palavra-passe da conta de utilizador admin.</block>
+  <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">O NetApp fornece suporte para BlueXP  de várias maneiras. Amplas opções gratuitas de suporte autônomo estão disponíveis 24 horas por dia, 7 dias por semana, como artigos da base de conhecimento (KB) e um fórum da comunidade. O seu registo de suporte inclui suporte técnico remoto através de Bilheteira na Web.</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">Obtenha ajuda</block>
+  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">A NetApp oferece suporte ao BlueXP  e seus serviços de nuvem de várias maneiras. Amplas opções gratuitas de suporte autônomo estão disponíveis 24 horas por dia, 7 dias por semana, como artigos da base de conhecimento (KB) e um fórum da comunidade. O seu registo de suporte inclui suporte técnico remoto através de Bilheteira na Web.</block>
+  <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">Obtenha suporte para um serviço de arquivos do provedor de nuvem</block>
+  <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">Para obter suporte técnico relacionado a um serviço de arquivo de provedor de nuvem, sua infraestrutura ou qualquer solução usando o serviço, consulte "obter ajuda" na documentação do BlueXP  para esse produto.</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSX para ONTAP</block>
+  <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
+  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Cloud Volumes Service para Google Cloud</block>
+  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
+  <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">Para receber suporte técnico específico da BlueXP  e de suas soluções e serviços de storage, use as opções de suporte descritas abaixo.</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">Use opções de suporte autônomo</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">Estas opções estão disponíveis gratuitamente, 24 horas por dia, 7 dias por semana:</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">Documentação</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">A documentação do BlueXP  que você está visualizando no momento.</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">Base de conhecimento</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">PESQUISE na base de conhecimento do BlueXP  para encontrar artigos úteis para solucionar problemas.</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">Comunidades</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">Junte-se à comunidade BlueXP  para seguir as discussões em curso ou criar novas.</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">Crie um caso com o suporte do NetApp</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">Além das opções de suporte autônomo acima, você pode trabalhar com um especialista de suporte da NetApp para resolver quaisquer problemas depois de ativar o suporte.</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="list-title">Antes de começar</block>
+  <block id="920fe1428c19533eda6222fe7e58efbe" category="inline-link">Saiba como gerenciar credenciais associadas ao seu login no BlueXP</block>
+  <block id="e1d2e1a634647fd631081bc4f6f8e523" category="list-text">Para usar o recurso *criar um caso*, primeiro você deve associar suas credenciais do site de suporte da NetApp ao login do BlueXP .<block ref="2a0d8b66ca9e99d023b48cf25f40fb12" category="inline-link-rx"></block>.</block>
+  <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">Se você estiver abrindo um caso para um sistema ONTAP com um número de série, sua conta NSS deve estar associada ao número de série desse sistema.</block>
+  <block id="7fe6981833e8fe7fd89e0a99a55573da" category="list-text">No BlueXP , selecione *Ajuda &gt; suporte*.</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">Na página *recursos*, escolha uma das opções disponíveis em suporte técnico:</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">Selecione *Ligue para nós* se quiser falar com alguém no telefone. Você será direcionado para uma página no NetApp.com que lista os números de telefone que você pode ligar.</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">Selecione *criar um caso* para abrir um ticket com um especialista em suporte da NetApp:</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Serviço*: Selecione o serviço ao qual o problema está associado. Por exemplo, BlueXP  quando específico para um problema de suporte técnico com fluxos de trabalho ou funcionalidade dentro do serviço.</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*Ambiente de trabalho*: Se aplicável ao armazenamento, selecione *Cloud Volumes ONTAP* ou *no local* e, em seguida, o ambiente de trabalho associado.</block>
+  <block id="98d90e398fc56688ddc647e5f49075ec" category="paragraph">A lista de ambientes de trabalho está dentro do escopo da organização (ou conta) do BlueXP , do projeto (ou da área de trabalho) e do conetor que você selecionou no banner superior do serviço.</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*Prioridade do caso*: Escolha a prioridade para o caso, que pode ser baixa, média, alta ou Crítica.</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">Para saber mais detalhes sobre essas prioridades, passe o Mouse sobre o ícone de informações ao lado do nome do campo.</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*Descrição do problema*: Forneça uma descrição detalhada do seu problema, incluindo quaisquer mensagens de erro aplicáveis ou etapas de solução de problemas que você executou.</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*Endereços de e-mail adicionais*: Insira endereços de e-mail adicionais se você quiser que outra pessoa saiba sobre esse problema.</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*Anexo (Opcional)*: Carregue até cinco anexos, um de cada vez.</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">Os anexos estão limitados a 25 MB por ficheiro. As seguintes extensões de arquivo são suportadas: txt, log, pdf, jpg/jpeg, rtf, doc/docx, xls/xlsx e csv.</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">Uma captura de tela do formulário criar um caso que permite criar um caso com o suporte da NetApp.</block>
+  <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">Depois de terminar</block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">Um pop-up aparecerá com o número do seu caso de suporte. Um especialista em suporte da NetApp irá rever o seu caso e voltar para você em breve.</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">Para obter um histórico de seus casos de suporte, você pode selecionar *Configurações &gt; linha do tempo* e procurar ações chamadas "criar caso de suporte". Um botão à direita permite expandir a ação para ver detalhes.</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">É possível que você encontre a seguinte mensagem de erro ao tentar criar um caso:</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"Você não está autorizado a criar um caso contra o serviço selecionado"</block>
+  <block id="c7b7a5ae9f37fd7d24e4d641b9186fe9" category="paragraph">Esse erro pode significar que a conta NSS e a empresa de Registro com a qual está associada não são a mesma empresa de Registro para o número de série da conta BlueXP  (ou seja. 960xxxx) ou o número de série do ambiente de trabalho. Pode procurar assistência utilizando uma das seguintes opções:</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">Use o chat no produto</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">Envie um caso não técnico em<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">Gerenciar seus casos de suporte (prévia)</block>
+  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">Você pode visualizar e gerenciar casos de suporte ativos e resolvidos diretamente do BlueXP . Você pode gerenciar os casos associados à sua conta NSS e à sua empresa.</block>
+  <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">O gerenciamento de casos está disponível como uma prévia. Planejamos refinar essa experiência e adicionar melhorias nos próximos lançamentos. Por favor, envie-nos feedback usando o chat no produto.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">Observe o seguinte:</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">O painel de gerenciamento de casos na parte superior da página oferece duas visualizações:</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">A vista à esquerda mostra o total de casos abertos nos últimos 3 meses pela conta do usuário NSS que você forneceu.</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">A visualização à direita mostra o total de casos abertos nos últimos 3 meses ao nível da sua empresa com base na sua conta NSS de utilizador.</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">Os resultados na tabela refletem os casos relacionados à exibição selecionada.</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">Você pode adicionar ou remover colunas de interesse e pode filtrar o conteúdo de colunas como prioridade e Status. Outras colunas fornecem apenas capacidades de ordenação.</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">Veja os passos abaixo para obter mais detalhes.</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">Em um nível por caso, oferecemos a capacidade de atualizar notas de caso ou fechar um caso que ainda não esteja no status fechado ou pendente fechado.</block>
+  <block id="0a4050ac39772e9281a9aba225254bf8" category="list-text">Selecione *Gerenciamento de casos* e, se for solicitado, adicione sua conta NSS ao BlueXP .</block>
+  <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">A página *Gerenciamento de casos* mostra casos abertos relacionados à conta NSS associada à conta de usuário do BlueXP . Esta é a mesma conta NSS que aparece na parte superior da página *NSS Management*.</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">Opcionalmente, modifique as informações exibidas na tabela:</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">Em *casos da organização*, selecione *Exibir* para ver todos os casos associados à sua empresa.</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">Modifique o intervalo de datas escolhendo um intervalo de datas exato ou escolhendo um intervalo de tempo diferente.</block>
+  <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">Uma captura de tela da opção acima da tabela na página de gerenciamento de casos que permite escolher um intervalo de datas exato ou os últimos 7 dias, 30 dias ou 3 meses.</block>
+  <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">Filtre o conteúdo das colunas.</block>
+  <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">Uma captura de tela da opção de filtro na coluna Status que permite filtrar casos que correspondem a um status específico, como Ativo ou fechado.</block>
+  <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">O ícone de mais que aparece na tabela</block>
+  <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">Altere as colunas que aparecem na tabela selecionando <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> e escolhendo as colunas que você deseja exibir.</block>
+  <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">Uma captura de tela que mostra as colunas que você pode mostrar na tabela.</block>
+  <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">Um ícone com três pontos que aparece na última coluna da tabela</block>
+  <block id="348552521b849746260fe8d296d34c15" category="list-text">Gerencie um caso existente <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block>selecionando e selecionando uma das opções disponíveis:</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*Ver caso*: Veja detalhes completos sobre um caso específico.</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">* Atualizar notas de caso*: Forneça detalhes adicionais sobre o seu problema ou selecione *carregar arquivos* para anexar até um máximo de cinco arquivos.</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">* Fechar caso*: Forneça detalhes sobre por que você está fechando o caso e selecione *Fechar caso*.</block>
+  <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">Uma captura de tela que mostra as ações que você pode realizar depois de selecionar o menu na última coluna da tabela.</block>
+  <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8e8b2132d267e6b940332cd979b14732" category="summary">Se você descobriu um cluster do ONTAP local usando um conetor, pode criar volumes a partir da visualização padrão, usar o Gerenciador do sistema na visualização avançada e ativar os serviços de dados do BlueXP .</block>
+  <block id="842394c4883838b029db28103480c404" category="doc">Gerenciar clusters que foram descobertos com um conector</block>
+  <block id="6935d4eff56228cdcc6138a57b8873c9" category="paragraph">No Canvas, o ícone de ambiente de trabalho de um cluster que você descobriu com um conetor deve ser semelhante ao seguinte:</block>
+  <block id="db711502e98fa11f32f96dfd6ecc6e6b" category="inline-image-macro">Uma captura de tela do ícone do ambiente de trabalho que aparece no Canvas</block>
+  <block id="7191ab2cdb6e0f21fd1844124dd5642e" category="paragraph"><block ref="7191ab2cdb6e0f21fd1844124dd5642e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="128f3f75e6d7b802bf2dc0276793e8f6" category="paragraph">Se um ambiente de trabalho foi descoberto diretamente, o ícone do ambiente de trabalho inclui a palavra "Direct".</block>
+  <block id="a792efd76746d2c4c81fc6f8c1cdecf7" category="section-title">Crie volumes FlexVol a partir da visualização padrão</block>
+  <block id="2f0161095944f4ce3cb6f68537b3a19c" category="paragraph">Depois de descobrir o cluster do ONTAP no local BlueXP  usando um conector, você pode abrir o ambiente de trabalho para provisionar e gerenciar volumes do FlexVol.</block>
+  <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">Criar volumes</block>
+  <block id="afb7adc3debe75aa13a1fc4fdb7c0a81" category="paragraph">Com o BlueXP , você cria volumes NFS ou CIFS em agregados existentes. Não é possível criar novos agregados em um cluster ONTAP no local a partir da visualização padrão do BlueXP . Você precisa usar a exibição Avançado para criar agregados.</block>
+  <block id="8d2b311f9b9d9270715e282b3f9a0738" category="list-text">Na página tela, selecione o cluster do ONTAP no local no qual você deseja provisionar volumes.</block>
+  <block id="ba426b409f9ec6763d7b1ecebd5d576f" category="list-text">Selecione *volumes &gt; Adicionar volume*.</block>
+  <block id="108a74a6cbb575c986177039e07dc411" category="list-text">Siga as etapas do assistente para criar o volume.</block>
+  <block id="a28aaa114e91d430f853038c9ac17766" category="list-text">*Detalhes, proteção e Tags*: Insira detalhes sobre o volume, como seu nome e tamanho e escolha uma política de snapshot.</block>
+  <block id="3b0e375a08fe94a129cba31916c9d2dc" category="paragraph">Alguns dos campos desta página são auto-explicativos. A lista a seguir descreve os campos para os quais você pode precisar de orientação:</block>
+  <block id="6f16a5f8ff5d75ab84c018adacdfcbb7" category="cell">Campo</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">Descrição</block>
+  <block id="6f6cb72d544962fa333e2e34ce64f719" category="cell">Tamanho</block>
+  <block id="7b975bd58356ec64d88f70d7f167a299" category="cell">O tamanho máximo que você pode inserir depende, em grande parte, se você ativar o provisionamento de thin, o que permite criar um volume maior do que o armazenamento físico atualmente disponível para ele.</block>
+  <block id="426fb47479d0477ed5dbc9388b9add76" category="cell">Política de instantâneos</block>
+  <block id="052c4d27b63fed6776d46336a295d801" category="cell">Uma política de cópia Snapshot especifica a frequência e o número de cópias snapshot do NetApp criadas automaticamente. Uma cópia Snapshot do NetApp é uma imagem pontual do sistema de arquivos que não afeta a performance e exige o mínimo de storage. Você pode escolher a política padrão ou nenhuma. Você pode escolher nenhum para dados transitórios: Por exemplo, tempdb para Microsoft SQL Server.</block>
+  <block id="17b6d3e2bf5506b5e797dfb98b76c0c2" category="list-text">*Protocolo*: Escolha o protocolo para o volume (NFS, CIFS ou iSCSI) e, em seguida, defina o controle de acesso ou permissões para o volume.</block>
+  <block id="886d154945ab6b1710e580c43bfabaf7" category="paragraph">Se você escolher CIFS e um servidor ainda não estiver configurado, o BlueXP  solicitará que você configure um servidor CIFS usando o ative Directory ou um grupo de trabalho.</block>
+  <block id="10ca883ec839df9958683234c16faa0c" category="paragraph">A lista a seguir descreve os campos para os quais você pode precisar de orientação:</block>
+  <block id="8aaaedc342a0dce1d73d33f3fb69a2af" category="cell">Controle de acesso</block>
+  <block id="c2cf3bd16a968cc398d9e36f7fee3e49" category="cell">Uma política de exportação NFS define os clientes na sub-rede que podem acessar o volume. Por padrão, o BlueXP  insere um valor que fornece acesso a todas as instâncias na sub-rede.</block>
+  <block id="4f365bcd27fae641194545a5a823e30f" category="cell">Permissões e usuários/grupos</block>
+  <block id="5cd4beaa083f2301775c1a1bc84f2afc" category="cell">Esses campos permitem controlar o nível de acesso a um compartilhamento SMB para usuários e grupos (também chamados de listas de controle de acesso ou ACLs). Você pode especificar usuários ou grupos do Windows locais ou de domínio, ou usuários ou grupos UNIX. Se você especificar um nome de usuário do domínio do Windows, você deve incluir o domínio do usuário usando o nome de domínio do formato.</block>
+  <block id="a17ea0b6ec5074b6e385c43de80e900d" category="list-text">*Perfil de uso*: Escolha se deseja ativar ou desativar os recursos de eficiência de armazenamento no volume para reduzir a quantidade total de armazenamento de que você precisa.</block>
+  <block id="b664e4294e5d14d6fd3d39615d4e3341" category="list-text">*Review*: Reveja os detalhes sobre o volume e selecione *Add*.</block>
+  <block id="87377698a8dca305b9579a13060142f2" category="section-title">Criar volumes FlexGroup</block>
+  <block id="17946fbbcc494462c1dfafa59978ba50" category="paragraph">Você pode usar a API do BlueXP  para criar volumes do FlexGroup. Um volume FlexGroup é um volume com escalabilidade horizontal que oferece alto desempenho e distribuição automática de carga.</block>
+  <block id="b72566f4d301c9dec06189b65b061300" category="inline-link">Saiba como criar um volume FlexGroup usando a API</block>
+  <block id="7e22f91f39a086e048c658886855471a" category="list-text"><block ref="7e22f91f39a086e048c658886855471a" category="inline-link-rx"></block></block>
+  <block id="bbcffd6476036994102e5ec1c5571f64" category="inline-link">Saiba o que é um volume FlexGroup</block>
+  <block id="a33a2b4a40f0a01a71b97f709ac14074" category="list-text"><block ref="a33a2b4a40f0a01a71b97f709ac14074" category="inline-link-rx"></block></block>
+  <block id="9403a7672f0137bf2158d9662b27dbd0" category="section-title">Administrar o ONTAP usando a visualização avançada (Gerenciador do sistema)</block>
+  <block id="dce4384ee7fa334b58b3b529933aacef" category="paragraph">Se você precisar executar gerenciamento avançado de um cluster ONTAP no local, use o Gerenciador de sistemas do ONTAP, que é uma interface de gerenciamento fornecida com um sistema ONTAP. Incluímos a interface do Gerenciador de sistema diretamente no BlueXP  para que você não precise sair do BlueXP  para gerenciamento avançado.</block>
+  <block id="74593b49f99b6e21d38ca3d969b213f3" category="paragraph">Esta visualização avançada está disponível como uma visualização prévia. Planejamos refinar essa experiência e adicionar melhorias nos próximos lançamentos. Por favor, envie-nos feedback usando o chat no produto.</block>
+  <block id="38ff1351e45b1e4303e79145f4bc10b4" category="paragraph">A visualização Avançada no BlueXP  oferece acesso a recursos de gerenciamento adicionais:</block>
+  <block id="f3c3ee89c80d32726f5f937c07631d1c" category="list-text">Gerenciamento avançado de storage</block>
+  <block id="81988711ef6c9af40c8e8973f25c0bed" category="paragraph">Gerencie grupos de consistência, compartilhamentos, qtrees, cotas e VMs de armazenamento.</block>
+  <block id="62735a856683757bf28f1f02f97c151c" category="list-text">Gerenciamento de rede</block>
+  <block id="90aa7b1e6da20918b753d835fd9d28fb" category="paragraph">Gerencie IPspaces, interfaces de rede, portsets e portas ethernet.</block>
+  <block id="5da3380058f326675f5268466ae0c24f" category="list-text">Eventos e empregos</block>
+  <block id="59536015b2a8a8d499cbe947387acb5e" category="paragraph">Ver registos de eventos, alertas do sistema, trabalhos e registos de auditoria.</block>
+  <block id="3f20b3134627198be1e0ff879a88cd8f" category="list-text">Proteção de dados avançada</block>
+  <block id="18edb92cf2cbf5a1d60be48cff4de617" category="paragraph">Proteja VMs de storage, LUNs e grupos de consistência.</block>
+  <block id="f17e729a409e6c0faa3ddab50e856b07" category="list-text">Gerenciamento de host</block>
+  <block id="36eae32729ecc4b53ba38b252bc6b356" category="paragraph">Configurar grupos de iniciadores SAN e clientes NFS.</block>
+  <block id="1f0b82560627b660c6c6958a1df834b8" category="section-title">Configurações compatíveis</block>
+  <block id="8cc569c03bd345c450afe055c793f724" category="paragraph">O gerenciamento avançado pelo System Manager é compatível com clusters ONTAP no local executados no 9.10.0 ou posterior.</block>
+  <block id="0f1ca4e2133610fdc8b23e4db3f7cb0c" category="paragraph">A integração do System Manager não é suportada nas regiões GovCloud ou em regiões que não têm acesso de saída à Internet.</block>
+  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">Limitações</block>
+  <block id="ae5ebdf987b9634f1c41168db5af6124" category="paragraph">Alguns recursos do Gerenciador de sistema não são compatíveis com clusters ONTAP locais ao usar a visualização avançada no BlueXP .</block>
+  <block id="480454c8f8beef2524f1fbdddc48ea12" category="inline-link-macro">Reveja a lista de limitações</block>
+  <block id="bfe73fc0abe25019e3e0d76f17653911" category="paragraph"><block ref="736a4b96dd4361a68ef1dd0a557122e0" category="inline-link-macro-rx"></block>.</block>
+  <block id="48208e085946470d7aeaad6b13dcda66" category="section-title">Use a visualização avançada</block>
+  <block id="67bdff562faa68c471571176e3844346" category="paragraph">Abra um ambiente de trabalho ONTAP local e selecione a opção visualização avançada.</block>
+  <block id="44b7ffdcf84f31c030ae673e3b4e8e6e" category="list-text">No painel direito, em *Serviços*, localize *System Manager* e selecione *Open*.</block>
+  <block id="8d99550230ec2a9121971b0d13aa8fed" category="inline-image-macro">Uma captura de tela da tela BlueXP  que mostra a lista de serviços disponíveis depois de selecionar um ambiente de trabalho ONTAP local.</block>
+  <block id="471549b55f7b38862ec55e6f446f7278" category="paragraph"><block ref="471549b55f7b38862ec55e6f446f7278" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="83f4f85306f8b866c6ddc2026b1a554b" category="list-text">Se a mensagem de confirmação aparecer, leia-a e selecione *Fechar*.</block>
+  <block id="2384fee5ec28c392c4824455705673ad" category="list-text">Use o Gerenciador do sistema para gerenciar o ONTAP.</block>
+  <block id="e5da9221130cfc01e0feac2117f19695" category="list-text">Se necessário, selecione *mudar para Vista padrão* para retornar ao gerenciamento padrão por meio do BlueXP .</block>
+  <block id="54cf4bb0cf2034f534f1bd85ab4a6bb0" category="inline-image-macro">Uma captura de tela de um ambiente de trabalho do ONTAP local que mostra a opção alternar para a visualização padrão.</block>
+  <block id="922a5d434113f5026172e4d3ab5969a9" category="paragraph"><block ref="922a5d434113f5026172e4d3ab5969a9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5d82c1ade2b4a73465d28377bf1ee806" category="section-title">Obtenha ajuda com o System Manager</block>
+  <block id="eb75aeb3b4b2b9734ba3e52f5483f0b2" category="inline-link">Documentação do ONTAP</block>
+  <block id="9c1bd416df0d466347865d11e934dec2" category="paragraph">Se precisar de ajuda para usar o Gerenciador de sistema com o ONTAP,<block ref="e4712fca3ed0fd9138bc58dbf36327e9" category="inline-link-rx"></block> consulte para obter instruções passo a passo. Aqui estão alguns links que podem ajudar:</block>
+  <block id="b9cf2d579e6b088870d384fe9910b52f" category="inline-link">Gerenciamento de volume e LUN</block>
+  <block id="8fc667c489390551a74eb985b297d37a" category="list-text"><block ref="8fc667c489390551a74eb985b297d37a" category="inline-link-rx"></block></block>
+  <block id="3e49e5936cffd2e96856c25fa0417df2" category="inline-link">Gerenciamento de rede</block>
+  <block id="57614f27dec39901199cca4b61cebfe9" category="list-text"><block ref="57614f27dec39901199cca4b61cebfe9" category="inline-link-rx"></block></block>
+  <block id="7e7397a7b79323762c61941fc0e6b5f9" category="inline-link">Proteção de dados</block>
+  <block id="168463a2e30ac746441036fb49df730e" category="list-text"><block ref="168463a2e30ac746441036fb49df730e" category="inline-link-rx"></block></block>
+  <block id="c362ab732a9d440fb98db1e9b1395e29" category="section-title">Ative os serviços BlueXP </block>
+  <block id="c0c23b19a5402f833c9c6d50dc076f38" category="paragraph">Habilite os serviços de dados do BlueXP  em seus ambientes de trabalho para replicar dados, fazer backup, dados em categorias e muito mais.</block>
+  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="list-text">Replique dados</block>
+  <block id="7dfe1792c76bc1bec7f64c0b01460178" category="list-text">Replique dados entre sistemas Cloud Volumes ONTAP, sistemas de arquivos do Amazon FSX para ONTAP e clusters do ONTAP. Escolher uma replicação de dados única, que pode ajudar você a migrar dados de e para a nuvem, ou uma programação recorrente, que pode ajudar na recuperação de desastres ou na retenção de dados em longo prazo.</block>
+  <block id="dc699e704dec5502b9aa219f9381ad94" category="inline-link">Documentação de replicação</block>
+  <block id="d93a09be0b0872faa2d3d875b18887fc" category="paragraph"><block ref="d93a09be0b0872faa2d3d875b18887fc" category="inline-link-rx"></block></block>
+  <block id="b76ae88aa754ea86825b84c8badae90a" category="list-text">Faça backup dos dados</block>
+  <block id="32f4a4b77e8bb8a5997c35c84f226d07" category="list-text">Faça backup dos dados do sistema ONTAP no local para storage de objetos econômico na nuvem.</block>
+  <block id="b781e6c9d1cf8ce1e5e954c2b07e6e8a" category="inline-link">Documentação de backup e recuperação</block>
+  <block id="fd9e7f2efb7b534c131af14e52f6f177" category="paragraph"><block ref="fd9e7f2efb7b534c131af14e52f6f177" category="inline-link-rx"></block></block>
+  <block id="b62196e30035e69996a2d1d3a9d64116" category="list-text">Digitalize, mapeie e classifique seus dados</block>
+  <block id="6c8d5da78ab1fbae76a8c2a84cdb0a7c" category="list-text">Analise os clusters locais corporativos para mapear e classificar dados e identificar informações privadas. Isso pode ajudar a reduzir os riscos de segurança e conformidade, diminuir os custos de storage e auxiliar nos projetos de migração de dados.</block>
+  <block id="88038b21c0389de878b5955d44c08444" category="inline-link">Documentação de classificação</block>
+  <block id="dc0996cd1d51bfc6757495eca3daa9f6" category="paragraph"><block ref="dc0996cd1d51bfc6757495eca3daa9f6" category="inline-link-rx"></block></block>
+  <block id="840a495adf1ad99ebc0b2945d0d37848" category="list-text">Categorize os dados na nuvem</block>
+  <block id="bdaba8e114e06250b64623fa35d279e2" category="list-text">Estenda seu data center para a nuvem ao dispor automaticamente em camadas os dados inativos de clusters do ONTAP para o storage de objetos.</block>
+  <block id="ec6926409b25c27a5821ec39e0552956" category="inline-link">Disposição em camadas na documentação</block>
+  <block id="468caeffde72f6e5b0fda6369c3f5f0d" category="paragraph"><block ref="468caeffde72f6e5b0fda6369c3f5f0d" category="inline-link-rx"></block></block>
+  <block id="d645b6604b6bed9eead9cae8fe011de8" category="list-text">Manter a integridade, o tempo de atividade e a performance</block>
+  <block id="a49bfeae157cc560a89bac37a142be7d" category="list-text">Implemente as soluções sugeridas para clusters do ONTAP antes de uma interrupção ou falha ocorrer.</block>
+  <block id="5e37dded84c4efba1c6c22de468101ca" category="inline-link">Documentação sobre resiliência operacional</block>
+  <block id="cca0aaac8a4ddfadb9d4340ee5c58c3d" category="paragraph"><block ref="cca0aaac8a4ddfadb9d4340ee5c58c3d" category="inline-link-rx"></block></block>
+  <block id="81e1fcaa1ce96a674b79e47a02d7f4ba" category="list-text">Identifique clusters com baixa capacidade</block>
+  <block id="6469bc932e571a70af6dc9f155dc8c4f" category="list-text">Identifique clusters que estejam mostrando baixa capacidade, revise os clusters para ver a capacidade atual e prevista e muito mais.</block>
+  <block id="68eb93c26a1fa5e191126273ae12b097" category="inline-link">Documentação de eficiência económica</block>
+  <block id="5a1ba2c518bc284a53dce33562379ae9" category="paragraph"><block ref="5a1ba2c518bc284a53dce33562379ae9" category="inline-link-rx"></block></block>
+  <block id="e99ba2e85cd14247616b34e8e537a2a3" category="summary">Se você descobriu seu cluster do ONTAP no local diretamente sem usar um conector, pode entrar no ambiente de trabalho para gerenciar o cluster usando o Gerenciador de sistema.</block>
+  <block id="c65dc56e9af1b59f20d971d9f8ecd361" category="doc">Gerenciar clusters que foram descobertos diretamente</block>
+  <block id="4b00b5b65d810ab0ae0bc0144d73b71a" category="paragraph">Se você descobriu seu cluster do ONTAP no local diretamente sem usar um conector, pode abrir o ambiente de trabalho para gerenciar o cluster usando o Gerenciador de sistema.</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">Antes de começar</block>
+  <block id="bc3d7bdad28e2f8cac321d5cae0b897c" category="paragraph">Alguns recursos do Gerenciador de sistema não são suportados pelo BlueXP .</block>
+  <block id="ed36532cba007a185fa7e3557a16206a" category="list-text">Na página Canvas, selecione o ambiente de trabalho do ONTAP no local.</block>
+  <block id="e2868e6281d0ed6987fd505840c53ebb" category="paragraph">O ícone do ambiente de trabalho identifica clusters que foram descobertos diretamente:</block>
+  <block id="adae1368fef895169a40e9765864c2d0" category="paragraph"><block ref="adae1368fef895169a40e9765864c2d0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d6a0741adb3101b3ac8caa5bee63eb9e" category="list-text">Se solicitado, insira suas credenciais do ONTAP.</block>
+  <block id="45d2775227d0faf611658c52b9e5d2da" category="paragraph">Você será solicitado a fazer login com suas credenciais do ONTAP sempre que abrir o ambiente de trabalho, se você não salvar as credenciais. Você tem a opção de salvar as credenciais para que você não precise inseri-las cada vez. Se você usar essa opção, as credenciais serão associadas somente ao usuário do BlueXP . Eles não são salvos para uso por qualquer outra pessoa em sua conta.</block>
+  <block id="c4d0d6d40840ebb3d4f4f87b4309d6b6" category="inline-image-macro">Uma captura de tela que mostra o prompt para inserir o nome de usuário e a senha de um cluster do ONTAP.</block>
+  <block id="ae0f0582f8fc53d392de639973d7187a" category="paragraph"><block ref="ae0f0582f8fc53d392de639973d7187a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a820c8babe9911ddf670332c6647b2cf" category="summary">Remova um ambiente de trabalho do ONTAP no local se não quiser mais gerenciá-lo do BlueXP .</block>
+  <block id="833397a222b2d3624761a8e68a721fd5" category="doc">Remover um ambiente de trabalho do ONTAP no local</block>
+  <block id="bd60ce6149853fe9cc7d5bd848c0bde4" category="paragraph">A remoção do ambiente de trabalho não afeta o cluster do ONTAP. Você pode reencontrá-lo de BlueXP  a qualquer momento.</block>
+  <block id="7c9f32f73fa06aecdeb526cf83b2809c" category="list-text">Selecione o ícone do menu e selecione *Remover do espaço de trabalho*.</block>
+  <block id="82efd2783df66726ca1b3a680a181ac8" category="inline-image-macro">Uma captura de tela que mostra o menu no canto superior direito da página e a opção Remover.</block>
+  <block id="fdc54b68e260b5861ecabd7cfd437124" category="paragraph"><block ref="fdc54b68e260b5861ecabd7cfd437124" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b7dd0331ad4ede9488c2fd01dda69e83" category="list-text">Selecione *Remover* para confirmar.</block>
+  <block id="243263104c829e77835d632f591230d5" category="summary">Antes de poder abrir um caso de suporte com o suporte técnico da NetApp, você precisa adicionar uma conta do site de suporte da NetApp à BlueXP  e, em seguida, Registrar-se para suporte.</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">Registre-se para obter suporte</block>
+  <block id="ece19bab46695021f109a5e50f08bebe" category="paragraph">O Registro de suporte é necessário para receber suporte técnico específico da BlueXP  e de suas soluções e serviços de storage. O Registro de suporte também é necessário para habilitar fluxos de trabalho importantes para sistemas Cloud Volumes ONTAP.</block>
+  <block id="8a3d807608e632d188a288fc5f4aa7eb" category="paragraph">O Registro para suporte não ativa o suporte do NetApp para um serviço de arquivos de provedor de nuvem. Para obter suporte técnico relacionado a um serviço de arquivo de provedor de nuvem, sua infraestrutura ou qualquer solução usando o serviço, consulte "obter ajuda" na documentação do BlueXP  para esse produto.</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">Visão geral do Registro de suporte</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">Existem duas formas de Registro para ativar o direito de suporte:</block>
+  <block id="29360bfcdbc91d3f1514c372b4585965" category="list-text">Registar o número de série da sua conta BlueXP  (o número de série 960xxxxxxxxx de 20 dígitos localizado na página recursos de suporte no BlueXP ).</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">Isso serve como seu ID de assinatura de suporte único para qualquer serviço no BlueXP . Cada assinatura de suporte no nível de conta do BlueXP  deve ser registrada.</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">Registrando os números de série do Cloud Volumes ONTAP associados a uma assinatura no mercado do seu provedor de nuvem (estes são números de série de 20 dígitos 909201xxxxxxxx).</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">Esses números de série são comumente referidos como _PAYGO serial numbers_ e são gerados pelo BlueXP  no momento da implantação do Cloud Volumes ONTAP.</block>
+  <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">Registrar ambos os tipos de números de série permite recursos como abrir tickets de suporte e geração automática de casos. O Registro é concluído adicionando contas do site de suporte da NetApp (NSS) ao BlueXP , conforme descrito abaixo.</block>
+  <block id="444b74bc81e823cc1c4c704219ad8ed3" category="section-title">Registre o BlueXP  para obter suporte ao NetApp</block>
+  <block id="b3bf31f8a918c712f26cdf493a908825" category="paragraph">Para se Registrar para obter suporte e ativar o direito de suporte, um usuário em sua organização (ou conta) do BlueXP  deve associar uma conta do site de suporte da NetApp ao login do BlueXP . A forma como você se Registra no suporte da NetApp depende se você já tem uma conta do site de suporte da NetApp (NSS).</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">Cliente existente com uma conta NSS</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">Se você é um cliente da NetApp com uma conta NSS, você simplesmente precisa se Registrar para obter suporte através do BlueXP .</block>
+  <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">No canto superior direito do console BlueXP , selecione o ícone Configurações e selecione *credenciais*.</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">Selecione *credenciais do usuário*.</block>
+  <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">Selecione *Adicionar credenciais NSS* e siga o prompt de autenticação do site de suporte da NetApp (NSS).</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">Para confirmar que o processo de Registro foi bem-sucedido, selecione o ícone Ajuda e selecione *suporte*.</block>
+  <block id="2ba7f9eae7a02f9c3ac0fc07517d1c48" category="paragraph">A página *recursos* deve mostrar que sua organização do BlueXP  está registrada para suporte.</block>
+  <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">Uma captura de tela que mostra um número de série de conta e uma caixa de seleção verde e o texto registrado para suporte.</block>
+  <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c05e530d1466e986d570cfe3f92656c3" category="paragraph">Observe que outros usuários do BlueXP  não verão esse mesmo status de Registro de suporte se não tiverem associado uma conta do site de suporte da NetApp ao login do BlueXP . No entanto, isso não significa que sua organização do BlueXP  não esteja registrada para suporte. Desde que um usuário na organização tenha seguido esses passos, sua organização foi registrada.</block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">Cliente existente, mas sem conta NSS</block>
+  <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">Se você já é um cliente NetApp com licenças e números de série existentes, mas _no_ conta NSS, você precisa criar uma conta NSS e associá-la ao seu login no BlueXP .</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">Formulário de Registro do usuário do site de suporte da NetApp</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">Crie uma conta do site de suporte da NetApp preenchendo o.<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">Certifique-se de selecionar o nível de usuário apropriado, que normalmente é *Cliente NetApp/Usuário final*.</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">Certifique-se de copiar o número de série da conta BlueXP  (960xxxx) usado acima para o campo de número de série. Isto irá acelerar o processamento da conta.</block>
+  <block id="0499bba105f8a891a2c671f1ba99dd34" category="list-text">Associe a sua nova conta NSS ao seu login no BlueXP  executando as etapas em <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>.</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">Novo na NetApp</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">Se você é novo no NetApp e não tem uma conta NSS, siga cada passo abaixo.</block>
+  <block id="d889e6e7cc4c5509ab5b37f8fc894e46" category="list-text">No canto superior direito do console do BlueXP , selecione o ícone Ajuda e selecione *suporte*.</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Uma captura de tela do menu Ajuda onde suporte é a primeira opção listada</block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">Localize o número de série da ID da conta na página Registro de suporte.</block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">Site de Registro de suporte da NetApp</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">Navegue<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> e selecione *não sou um Cliente NetApp registado*.</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">Preencha os campos obrigatórios (aqueles com asteriscos vermelhos).</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">No campo *linha de produtos*, selecione *Cloud Manager* e, em seguida, selecione seu provedor de cobrança aplicável.</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">Copie o número de série da sua conta a partir da etapa 2 acima, complete a verificação de segurança e confirme se leu a Política de Privacidade de dados globais da NetApp.</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">Um e-mail é enviado imediatamente para a caixa de correio fornecida para finalizar esta transação segura. Certifique-se de verificar suas pastas de spam se o e-mail de validação não chegar em poucos minutos.</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Confirme a ação a partir do e-mail.</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">A confirmação envia sua solicitação à NetApp e recomenda que você crie uma conta do site de suporte da NetApp.</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">Certifique-se de copiar o número de série da conta (960xxxx) usado acima para o campo de número de série. Isto irá acelerar o processamento.</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">O NetApp deve entrar em Contato com você durante esse processo. Este é um exercício de integração única para novos usuários.</block>
+  <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">Depois de ter sua conta do site de suporte da NetApp, associe a conta ao login do BlueXP , executando as etapas em <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>.</block>
+  <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">Associar credenciais NSS para suporte ao Cloud Volumes ONTAP</block>
+  <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">A associação das credenciais do site de suporte da NetApp à sua organização do BlueXP  é necessária para ativar os seguintes fluxos de trabalho principais para o Cloud Volumes ONTAP:</block>
+  <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">Registro de sistemas Cloud Volumes ONTAP de pagamento conforme o uso para suporte</block>
+  <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">Fornecer sua conta NSS é necessário para ativar o suporte para o seu sistema e para obter acesso aos recursos de suporte técnico da NetApp.</block>
+  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">Implantando o Cloud Volumes ONTAP quando você traz sua própria licença (BYOL)</block>
+  <block id="2ebfeabed40c2270d9fa8325080a4b3e" category="paragraph">É necessário fornecer a sua conta NSS para que o BlueXP  possa carregar a sua chave de licença e ativar a subscrição para o período que adquiriu. Isso inclui atualizações automáticas para renovações de prazo.</block>
+  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Atualizar o software Cloud Volumes ONTAP para a versão mais recente</block>
+  <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">Associar credenciais NSS à sua organização do BlueXP  é diferente da conta NSS associada a um login de usuário do BlueXP .</block>
+  <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">Essas credenciais do NSS estão associadas ao ID específico da organização do BlueXP . Os utilizadores que pertencem à organização BlueXP  podem aceder a estas credenciais a partir de *suporte &gt; Gestão NSS*.</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Se você tiver uma conta no nível do cliente, pode adicionar uma ou mais contas NSS.</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Se você tiver uma conta de parceiro ou revendedor, você pode adicionar uma ou mais contas NSS, mas elas não podem ser adicionadas ao lado de contas de nível de cliente.</block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">Selecione *NSS Management &gt; Add NSS Account* (Gestão NSS &gt; Adicionar conta NSS*).</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">Quando for solicitado, selecione *continuar* para ser redirecionado para uma página de login da Microsoft.</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">O NetApp usa o Microsoft Entra ID como provedor de identidade para serviços de autenticação específicos para suporte e licenciamento.</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">Na página de login, forneça seu endereço de e-mail e senha registrados no site de suporte da NetApp para executar o processo de autenticação.</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">Essas ações permitem que o BlueXP  use sua conta NSS para tarefas como downloads de licenças, verificação de atualização de software e futuros Registros de suporte.</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">A conta NSS tem de ser uma conta ao nível do cliente (não uma conta de convidado ou temporária). Você pode ter várias contas NSS no nível do cliente.</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">Só pode haver uma conta NSS se essa conta for uma conta de nível de parceiro. Se você tentar adicionar contas NSS no nível do cliente e existir uma conta no nível do parceiro, você receberá a seguinte mensagem de erro:</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">"O tipo de cliente NSS não é permitido para esta conta, uma vez que já existem utilizadores NSS de tipo diferente."</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">O mesmo acontece se você tiver contas NSS pré-existentes no nível do cliente e tentar adicionar uma conta no nível do parceiro.</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">Após o login bem-sucedido, o NetApp armazenará o nome de usuário do NSS.</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">Um ícone de três pontos horizontais</block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">Este é um ID gerado pelo sistema que mapeia para o seu e-mail. Na página *NSS Management*, você pode exibir seu e-mail no <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> menu.</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">Se você precisar atualizar seus tokens de credenciais de login, há também uma opção *Atualizar credenciais* <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>no menu.</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">Usando esta opção, você solicita que você faça login novamente. Observe que o token para essas contas expira após 90 dias. Uma notificação será postada para alertá-lo sobre isso.</block>
+  <block id="94fd71e366753efc2c71fcdd0fc3afd4" category="summary">A carteira digital da BlueXP  permite visualizar os detalhes do contrato de cada um dos clusters do ONTAP no local. Se você ainda não descobriu um cluster no BlueXP , você também pode fazer isso a partir da carteira digital.</block>
+  <block id="4bbcdd6338e8631576e63f1156b1c51d" category="doc">Exibir informações do cluster e detalhes do contrato</block>
+  <block id="2b474be1d4faf7d5e70a3977fa183a0a" category="paragraph">A carteira digital do BlueXP  exibe detalhes sobre os clusters do ONTAP no local descobertos como um ambiente de trabalho ou associados a uma conta do site de suporte da NetApp que você adicionou ao BlueXP .</block>
+  <block id="43bfd35e9b57eaace0eafa6750af5ff7" category="list-text">No menu de navegação BlueXP , selecione *Governança &gt; carteira digital*.</block>
+  <block id="e65135bd79d15db91bec6c98a9f8dabe" category="list-text">Selecione *ONTAP on-premises*.</block>
+  <block id="93416f52fcce3ab7a37ed87d0aeb8134" category="paragraph">Se você for solicitado a inserir as credenciais da conta do site de suporte da NetApp (NSS) primeiro, insira-as no painel de suporte. Depois de adicionar a conta, os clusters incluídos nessa conta são exibidos.</block>
+  <block id="84c2c11254da9ee11c4482a60291186d" category="paragraph">As datas de expiração do Contrato de Software e do Contrato de hardware aparecem na linha para cada cluster.</block>
+  <block id="18f84cf96ce5861e5585468ef883b180" category="inline-image-macro">Uma captura de tela de expansão dos detalhes do cluster para que você possa exibir as informações da licença do cluster.</block>
+  <block id="50b3dac67cf083c4a4dd133f8b8d0076" category="paragraph"><block ref="50b3dac67cf083c4a4dd133f8b8d0076" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="19d0494f8c332b6872314cab23b38a2d" category="list-text">Se você ainda não descobriu um cluster como um ambiente de trabalho, selecione *Discover* e siga as instruções.</block>
+  <block id="87713871e17e5ef9a4e363132a527495" category="paragraph">Depois de descobrir um cluster, ele estará disponível como um ambiente de trabalho no BlueXP  para que você possa gerenciá-lo.</block>
+  <block id="06afa66cf6eca938a45be835a47030e1" category="paragraph-title">Link relacionado</block>
+  <block id="73aa008a6b5cf018ef8dbd33a51ac3c7" category="inline-link">Saiba mais sobre como gerenciar licenças para clusters ONTAP on-premise a partir da carteira digital da BlueXP </block>
+  <block id="576b63b6009db82dbb03f5fa245eb11c" category="paragraph"><block ref="576b63b6009db82dbb03f5fa245eb11c" category="inline-link-rx"></block></block>
+  <block id="f38bfe4e4ca70348bab102b16fa118d4" category="summary">Saiba as novidades no gerenciamento de clusters do ONTAP no local no BlueXP .</block>
+  <block id="b2eb7fa62697c601a5dc03cfa8317323" category="doc">Novidades nos clusters ONTAP no local</block>
+  <block id="e5182edc3707e8e354c40ab7fa819f39" category="section-title">7 de outubro de 2024</block>
+  <block id="1e095c69621645fccc8f12cd7f35f6fc" category="section-title">Suporte para sistemas ASA R2</block>
+  <block id="0c02bcea354671c5372f06a37c547a7d" category="paragraph">Agora você pode descobrir os sistemas NetApp ASA R2 no BlueXP  ao usar o BlueXP  no modo padrão ou no modo restrito. Depois de descobrir um sistema NetApp ASA R2 e abrir o ambiente de trabalho, você será levado diretamente para o Gerenciador de sistemas.</block>
+  <block id="f2fba5567ec0d8ae5addf04c960ba6d0" category="paragraph">A descoberta de sistemas ASA R2 não é suportada ao usar o BlueXP  no modo privado.</block>
+  <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">Saiba mais sobre os modos de implantação do BlueXP</block>
+  <block id="d3342e15149bfef7fd9289d7025e506e" category="list-text"><block ref="d3342e15149bfef7fd9289d7025e506e" category="inline-link-rx"></block></block>
+  <block id="9d5b3307d5a7d5905623bf21ab049bdd" category="section-title">22 de abril de 2024</block>
+  <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="section-title">Modelos de volume já não são suportados</block>
+  <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">Você não pode mais criar um volume a partir de um modelo. Essa ação foi associada ao serviço de correção do BlueXP , que não está mais disponível.</block>
+  <block id="c94e28d852ce517312825c9ed339fc1d" category="section-title">30 de julho de 2023</block>
+  <block id="14b044746cb87538e696ebd7cef86e8f" category="paragraph">Se você estiver gerenciando um cluster com um conetor, agora poderá criar volumes do FlexGroup usando a API do BlueXP .</block>
+  <block id="ca513b668252beaae65808764fc2388f" category="inline-link">Saiba como criar um volume FlexGroup</block>
+  <block id="dfc9f0f0920c102b079fd1c513fccdde" category="list-text"><block ref="dfc9f0f0920c102b079fd1c513fccdde" category="inline-link-rx"></block></block>
+  <block id="f73b546b2cf111d3a080443f2cd3b97f" category="section-title">2 de julho de 2023</block>
+  <block id="11f4fef53a39b0e83d4fdb9f922e768e" category="section-title">Descoberta de cluster de My ESTATE</block>
+  <block id="4573c689742769edc01e3f45205fd784" category="paragraph">Agora você pode descobrir clusters ONTAP locais a partir de *Canvas &gt; My ESTATE* selecionando um cluster que o BlueXP  pré-descobriu com base nos clusters ONTAP associados ao endereço de e-mail do seu login no BlueXP .</block>
+  <block id="5a7621b5dce7d879d4fc86499c34c6e6" category="inline-link">Saiba como descobrir clusters a partir da página My ESTATE</block>
+  <block id="92adae4e241e70163adb8c5469771a82" category="paragraph"><block ref="24b3a807a9407b81f5101322f988421d" category="inline-link-rx"></block>.</block>
+  <block id="7e43a762816453626bbf35533afa1755" category="section-title">4 de maio de 2023</block>
+  <block id="4addbe3fd43e1a48fd8eb999d5f3b487" category="section-title">Ative o backup e a recuperação do BlueXP </block>
+  <block id="f5303ee41218fc978c78d7744749c918" category="inline-link-macro">Saiba mais sobre como ativar o backup e a recuperação do BlueXP </block>
+  <block id="b4dac87ad594b04c0dcd76d4227b5f53" category="paragraph">A partir do ONTAP 9.13,1, você pode usar o Gerenciador do sistema (exibição avançada) para ativar o backup e a recuperação do BlueXP  se você descobriu o cluster usando um conetor. <block ref="e052ae4f2be0dcbae408a5e7fa45055e" category="inline-link-macro-rx"></block></block>
+  <block id="f3d662d271f05f454f32718233b273b8" category="section-title">Atualize a imagem da versão do ONTAP e o firmware do hardware</block>
+  <block id="31599c36bc63510a259d9bd99e50d225" category="inline-link-macro">Saiba mais sobre como atualizar o ONTAP e o firmware</block>
+  <block id="8fc7dd0bb44c44f9797d86872cb017cc" category="paragraph">A partir do ONTAP 9.10,1, você pode usar o Gerenciador do sistema (visualização avançada) para atualizar a imagem da versão do ONTAP e o firmware do hardware. Você pode optar por receber atualizações automáticas para se manter atualizado ou fazer atualizações manuais da sua máquina local ou de um servidor que pode ser acessado usando o BlueXP . <block ref="d994c74c98eb05bb27c8a6afc3cc2159" category="inline-link-macro-rx"></block></block>
+  <block id="102787ed6297b34a7504b527e91d01d3" category="section-title">3 de abril de 2023</block>
+  <block id="44a722c1e42cdb4002c75bb29403670b" category="section-title">Opção de descoberta única a partir do console BlueXP </block>
+  <block id="7023e56782327af6f409e1889ae33345" category="paragraph">Ao descobrir um cluster do ONTAP no local a partir do console do BlueXP , agora você verá uma única opção:</block>
+  <block id="d70ed695b081fff2505f285b0540727b" category="inline-image-macro">Uma captura de tela que mostra a opção Discover on-premises ONTAP disponível ao criar um ambiente de trabalho</block>
+  <block id="6456f90a24e3ce74e10fac140453a9e4" category="paragraph"><block ref="6456f90a24e3ce74e10fac140453a9e4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3d85937cd401956877664b5f7128cc5d" category="paragraph">Anteriormente, havia fluxos separados para descoberta direta e descoberta com um conetor. Ambas as opções ainda estão disponíveis, mas mescladas em um único fluxo.</block>
+  <block id="251a667be8662557b7aba30c53380da3" category="paragraph">Quando você inicia o processo de descoberta, o BlueXP  descobre o cluster da seguinte forma:</block>
+  <block id="02067bb3de9c60175abe8c4b7d81c3c2" category="list-text">Se você tiver um conetor ativo que tenha uma conexão com o cluster do ONTAP, o BlueXP  usará esse conetor para descobrir e gerenciar o cluster.</block>
+  <block id="873b328fabdfb8db13a38e03c836d37b" category="inline-link">Saiba mais sobre as opções de descoberta e gerenciamento</block>
+  <block id="31704fc30eb2f5485c6844b2921554ff" category="paragraph"><block ref="9ff7898ac3309c19fb8d99f370e44be1" category="inline-link-rx"></block>.</block>
+  <block id="1f7138998459804601fc351f8d442e29" category="section-title">1 de janeiro de 2023</block>
+  <block id="f2e4e4f7b0b864863bfac74f4383a826" category="section-title">Salve as credenciais do ONTAP</block>
+  <block id="7d830b76e4f0014bb7468c045f40070d" category="paragraph">Quando você abre um ambiente de trabalho do ONTAP no local que foi descoberto diretamente sem usar um conetor, agora você tem a opção de salvar as credenciais do cluster do ONTAP para que você não precise inseri-las sempre que abrir o ambiente de trabalho.</block>
+  <block id="8a08a7490f38dacd86c415a138d60aea" category="inline-link">Saiba mais sobre esta opção.</block>
+  <block id="50e595f4689430099172b96d0ac1c5b7" category="paragraph"><block ref="50e595f4689430099172b96d0ac1c5b7" category="inline-link-rx"></block></block>
+  <block id="83ec139c80a3d5b2f11f1a94eed47cd2" category="section-title">4 de dezembro de 2022</block>
+  <block id="612111851a1740ab34a9d35045621084" category="paragraph">As seguintes alterações foram introduzidas com a versão 3.9.24 do conetor.</block>
+  <block id="b5690ceb7beb4242754890f225e479d3" category="section-title">Nova maneira de descobrir clusters ONTAP no local</block>
+  <block id="c01d068bb0abdf0bdf6a772adc67e2cd" category="paragraph">Agora você pode descobrir diretamente seus clusters ONTAP no local sem usar um conector. Essa opção permite o gerenciamento de cluster somente pelo System Manager. Não é possível ativar nenhum serviço de dados BlueXP  neste tipo de ambiente de trabalho.</block>
+  <block id="336404297eaddf0051e1d62c3d3bb48e" category="inline-link">Saiba mais sobre essa opção de descoberta e gerenciamento</block>
+  <block id="607908527266c2c3691c473d8332b929" category="paragraph"><block ref="4830a0106964b5dc10f8dd73952f6223" category="inline-link-rx"></block>.</block>
+  <block id="ee1ef6cf0f3971b44eb2abcac958fb8d" category="section-title">Volumes FlexGroup</block>
+  <block id="c712ad51a932168a912654cc42bbce87" category="paragraph">Para clusters ONTAP on-premises descobertos por um conector, a visualização padrão no BlueXP  agora mostra os volumes FlexGroup criados pelo Gerenciador do sistema ou pela CLI do ONTAP. Você também pode gerenciar esses volumes clonando-os, editando suas configurações, excluindo-os e muito mais.</block>
+  <block id="2907843476579cb2696e8e0e783a2a07" category="inline-image-macro">Uma captura de tela que mostra um volume FlexGroup na página volumes para um cluster do ONTAP local.</block>
+  <block id="15a86e5184e80e42ba4031c0d973fa52" category="paragraph"><block ref="15a86e5184e80e42ba4031c0d973fa52" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c081854506aed2f757f753e779bc45f" category="paragraph">O BlueXP  não oferece suporte à criação de volumes FlexGroup. Você precisará continuar usando o Gerenciador do sistema ou a CLI para criar volumes do FlexGroup.</block>
+  <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">18 de setembro de 2022</block>
+  <block id="440be74a67502f9c3d55890782329328" category="paragraph">As seguintes alterações foram introduzidas com a versão 3.9.22 do conetor.</block>
+  <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">Nova página de visão geral</block>
+  <block id="8e41db9b51f790909ef80a064153f722" category="paragraph">Introduzimos uma nova página de visão geral para fornecer os principais detalhes sobre um cluster ONTAP no local. Por exemplo, agora é possível visualizar detalhes como eficiência de storage, distribuição de capacidade e informações do sistema.</block>
+  <block id="d35ea0fa6a3d81047f0a36a7dfac1c07" category="paragraph">Também é possível visualizar detalhes sobre a integração com outros serviços do BlueXP  que permitem categorização de dados, replicação de dados e backups.</block>
+  <block id="fba766c98683be4af93f93b5d7909f1e" category="inline-image-macro">Uma captura de tela que mostra a página Visão geral de um cluster do ONTAP no local.</block>
+  <block id="efc2b836458a13f2a0da7fc33a5f1396" category="paragraph"><block ref="efc2b836458a13f2a0da7fc33a5f1396" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c76ff3fb4e35074fc6f04c1cb8ea02af" category="section-title">Página volumes redesenhada</block>
+  <block id="99cbfcbab5c608668044fc3849d8db46" category="paragraph">Redesenhamos a página volumes para fornecer um resumo dos volumes em um cluster. O resumo mostra o número total de volumes, a quantidade de capacidade provisionada, a capacidade usada e reservada e a quantidade de dados categorizados.</block>
+  <block id="2f82cdfc06b6747c85937b5cceabaaee" category="inline-image-macro">Uma captura de tela que mostra a página volumes para um cluster ONTAP no local.</block>
+  <block id="ae2cf98bd081450f4b6cbdeff70edb4d" category="paragraph"><block ref="ae2cf98bd081450f4b6cbdeff70edb4d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f8b475a3fefebada77a30229238d0a1a" category="section-title">7 de junho de 2022</block>
+  <block id="4f03a5c652641013d1e43811930f5769" category="paragraph">A seguinte alteração foi introduzida com a versão 3.9.19 do conetor.</block>
+  <block id="ffe3ec3b5faef58a758d9449470882a0" category="section-title">Nova Vista Avançada</block>
+  <block id="5549a52d6578bcb66138c7319ef4ea11" category="paragraph">Se você precisar executar o gerenciamento avançado de um cluster ONTAP no local, use o Gerenciador de sistemas do ONTAP, que é uma interface de gerenciamento fornecida com um sistema ONTAP. Incluímos a interface do System Manager diretamente no Cloud Manager para que você não precise sair do Cloud Manager para gerenciamento avançado.</block>
+  <block id="99721ad2e6d601b2966a9d9e1c7de770" category="paragraph">Essa visualização avançada está disponível como prévia com clusters ONTAP locais executando o 9.10.0 ou posterior. Planejamos refinar essa experiência e adicionar melhorias nos próximos lançamentos. Por favor, envie-nos feedback usando o chat no produto.</block>
+  <block id="ba26e4556a0f160834687982b0479336" category="section-title">27 de fevereiro de 2022</block>
+  <block id="c09e2822c570628d904cc9ae1b81258c" category="section-title">Uma guia "On-Premise ONTAP" está disponível na carteira digital</block>
+  <block id="b6476152a5181e4e223915202e88e1a9" category="paragraph">Agora você pode ver um inventário dos clusters do ONTAP no local, juntamente com as datas de expiração dos contratos de hardware e serviços. Detalhes adicionais sobre os clusters também estão disponíveis.</block>
+  <block id="c363f739f5bdf65a6ab4cae2b97b0d8a" category="inline-link">Saiba como visualizar essas informações importantes do cluster no local</block>
+  <block id="80cda7d463cdf911207ba0813ba128e8" category="paragraph"><block ref="9408b8fb91ee9dbbd42e5f3042dd6d8b" category="inline-link-rx"></block>. Você precisará ter uma conta do site de suporte da NetApp (NSS) para os clusters e as credenciais do NSS precisarão ser anexadas à sua conta do Cloud Manager.</block>
+  <block id="ef1bf4095b622ba80ac24b48b8e45eac" category="section-title">11 de janeiro de 2022</block>
+  <block id="43129a2fa4cbb252b200eba8ad6d79d2" category="section-title">As tags que você adicionar a volumes nos clusters ONTAP no local podem ser usadas com o serviço de marcação</block>
+  <block id="ba38e2fd40d303ca0ee880c6170d261e" category="paragraph">As tags que você adiciona a um volume agora estão associadas ao recurso de marcação do serviço modelos de aplicativos, que pode ajudá-lo a organizar e simplificar o gerenciamento de seus recursos.</block>
+  <block id="6568b62a7d7e403aa25f80da4df48e9a" category="sidebar">Gerencie seus sistemas NetApp AFF e FAS da BlueXP  para provisionar storage, replicar dados e configurar serviços de dados críticos baseados na nuvem.</block>
+  <block id="3f155fde095b56c33aa16ebcf24a5d94" category="sidebar">Gerenciamento de clusters do ONTAP no local usando o BlueXP </block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Comece agora</block>
+  <block id="7a57cd895ed6c692c6eaacc459f5c5b2" category="sidebar">Saiba mais sobre o gerenciamento de clusters do ONTAP no local</block>
+  <block id="a1ebf612d281c8e7fb16bbfa253b9627" category="sidebar">Descubra os clusters do ONTAP</block>
+  <block id="019323681c39b462d0fd30312fc741c2" category="sidebar">Gerenciar clusters ONTAP no local</block>
+  <block id="86c7810a751199da86e2984eefab0cbf" category="sidebar">Gerenciar clusters descobertos diretamente</block>
+  <block id="d7bca90a91d0f08eecc40f650240e677" category="sidebar">Gerenciar clusters descobertos com um conector</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs &amp; comunidade</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Comunidade NetApp</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP  blog</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Webinars na nuvem</block>
+  <block id="3014dc2d87cf02248e7abe6b8ac89106" category="sidebar">Documentos de cluster do ONTAP no local</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Notas de lançamento</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">O que há de novo</block>
+  <block id="d3db502b671c154b98dfced0b397de36" category="sidebar">Exibir informações do cluster e detalhes do contrato</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conhecimento e apoio</block>
+</blocks>

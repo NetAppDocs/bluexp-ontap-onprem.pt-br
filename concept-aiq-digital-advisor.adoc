@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: concept-aiq-digital-advisor.html 
+keywords: concepts, active iq digital advisor, ontap 
+summary: O consultor digital do BlueXP  permite otimizar as operações, a segurança e a performance dos clusters do ONTAP. 
+---
+= Otimize clusters com o consultor digital do BlueXP 
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O consultor digital do BlueXP  permite otimizar as operações, a segurança e a performance dos clusters do ONTAP.
+
+
+
+== Caraterísticas
+
+Você pode ver o status geral do seu sistema de storage, informações de alto nível sobre o bem-estar do sistema, inventário, Planejamento, atualizações e insights valiosos em um nível de lista de observação usando o consultor digital do BlueXP .
+
+* Analisar e otimizar a integridade dos sistemas de storage
+* Obtenha insights sobre todos os riscos para seus sistemas de storage e ações para reduzir os riscos
+* Analise o desempenho dos seus dispositivos de armazenamento visualizando o formato gráfico dos dados de desempenho
+* Obtenha detalhes sobre sistemas que excederam 90% de capacidade ou estão próximos de 90% de capacidade
+* Obtenha informações sobre o hardware e o software que expiraram ou estão prestes a expirar nos próximos 6 meses
+* Atualize o software do sistema de storage e atualize o firmware do ONTAP usando o Ansible
+
+
+
+
+== Sistemas ONTAP suportados
+
+O consultor digital fornece informações para todos os sistemas ONTAP locais e sistemas Cloud Volumes ONTAP associados à sua conta do site de suporte da NetApp (NSS).
+
+
+
+== Mais informações
+
+https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["Documentação do consultor digital"^]

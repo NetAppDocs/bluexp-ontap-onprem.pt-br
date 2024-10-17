@@ -1,0 +1,52 @@
+---
+sidebar: sidebar 
+permalink: task-manage-ontap-direct.html 
+keywords: direct discovery, direct, system manager, local, local discovery 
+summary: Se você descobriu seu cluster do ONTAP no local diretamente sem usar um conector, pode entrar no ambiente de trabalho para gerenciar o cluster usando o Gerenciador de sistema. 
+---
+= Gerenciar clusters que foram descobertos diretamente
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Se você descobriu seu cluster do ONTAP no local diretamente sem usar um conector, pode abrir o ambiente de trabalho para gerenciar o cluster usando o Gerenciador de sistema.
+
+.Antes de começar
+O computador que você está usando para acessar o console do BlueXP  deve ter uma conexão de rede com o cluster do ONTAP no local, semelhante a como você forneceria conexões com outros recursos em sua rede privada.
+
+.Limitações
+Alguns recursos do Gerenciador de sistema não são suportados pelo BlueXP .
+
+link:reference-limitations.html["Reveja a lista de limitações"].
+
+.Passos
+. Na página Canvas, selecione o ambiente de trabalho do ONTAP no local.
++
+O ícone do ambiente de trabalho identifica clusters que foram descobertos diretamente:
+
++
+image:screenshot-direct-discovery-we.png["Uma captura de tela do ícone do ambiente de trabalho que aparece no Canvas"]
+
+. Se solicitado, insira suas credenciais do ONTAP.
++
+Você será solicitado a fazer login com suas credenciais do ONTAP sempre que abrir o ambiente de trabalho, se você não salvar as credenciais. Você tem a opção de salvar as credenciais para que você não precise inseri-las cada vez. Se você usar essa opção, as credenciais serão associadas somente ao usuário do BlueXP . Eles não são salvos para uso por qualquer outra pessoa em sua conta.
+
++
+image:screenshot-credentials.png["Uma captura de tela que mostra o prompt para inserir o nome de usuário e a senha de um cluster do ONTAP."]
+
+. Use o Gerenciador do sistema para gerenciar o ONTAP.
++
+Se precisar de ajuda para usar o Gerenciador de sistema com o ONTAP, https://docs.netapp.com/us-en/ontap/index.html["Documentação do ONTAP"^] consulte para obter instruções passo a passo. Aqui estão alguns links que podem ajudar:
+
++
+** https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["Gerenciamento de volume e LUN"^]
+** https://docs.netapp.com/us-en/ontap/network-manage-overview-concept.html["Gerenciamento de rede"^]
+** https://docs.netapp.com/us-en/ontap/concept_dp_overview.html["Proteção de dados"^]
+
+
+
