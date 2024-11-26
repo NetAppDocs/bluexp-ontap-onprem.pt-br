@@ -51,7 +51,6 @@
   <block id="1eba71d64e6c5e410e558530711e835b" category="summary">As limitações conhecidas identificam plataformas, dispositivos ou funções que não são suportadas por esta versão do produto ou que não interoperam corretamente com ele. Revise essas limitações com cuidado.</block>
   <block id="482723983a4f2af954e36ff41e567451" category="doc">Limitações conhecidas</block>
   <block id="835e40a074ba47935e3e68e3452eb52f" category="section-title">Limitações relacionadas aos sistemas ASA R2</block>
-  <block id="4f59dac344ae97a32d47fe32ee94249f" category="list-text">Você pode descobrir os sistemas NetApp ASA R2 no BlueXP  ao usar o BlueXP  no modo padrão ou no modo restrito. A descoberta de sistemas ASA R2 não é suportada ao usar o BlueXP  no modo privado.</block>
   <block id="0bf2301f5cb3996192947186158c2e09" category="list-text">Depois de descobrir um sistema NetApp ASA R2 e abrir o ambiente de trabalho, você será levado diretamente para o Gerenciador de sistemas.</block>
   <block id="d5861f4539296095cd7c9fdfd0c5a2c9" category="paragraph">Não há outras opções de gerenciamento disponíveis com os sistemas ASA R2. Não é possível usar a visualização padrão e não é possível ativar os serviços BlueXP .</block>
   <block id="989977a18a476a92018e04dd60ec37c1" category="inline-link">Saiba mais sobre os sistemas ASA R2</block>
@@ -490,7 +489,6 @@
   <block id="8a08a7490f38dacd86c415a138d60aea" category="inline-link">Saiba mais sobre esta opção.</block>
   <block id="50e595f4689430099172b96d0ac1c5b7" category="paragraph"><block ref="50e595f4689430099172b96d0ac1c5b7" category="inline-link-rx"></block></block>
   <block id="83ec139c80a3d5b2f11f1a94eed47cd2" category="section-title">4 de dezembro de 2022</block>
-  <block id="612111851a1740ab34a9d35045621084" category="paragraph">As seguintes alterações foram introduzidas com a versão 3.9.24 do conetor.</block>
   <block id="b5690ceb7beb4242754890f225e479d3" category="section-title">Nova maneira de descobrir clusters ONTAP no local</block>
   <block id="c01d068bb0abdf0bdf6a772adc67e2cd" category="paragraph">Agora você pode descobrir diretamente seus clusters ONTAP no local sem usar um conector. Essa opção permite o gerenciamento de cluster somente pelo System Manager. Não é possível ativar nenhum serviço de dados BlueXP  neste tipo de ambiente de trabalho.</block>
   <block id="336404297eaddf0051e1d62c3d3bb48e" category="inline-link">Saiba mais sobre essa opção de descoberta e gerenciamento</block>
@@ -501,7 +499,6 @@
   <block id="15a86e5184e80e42ba4031c0d973fa52" category="paragraph"><block ref="15a86e5184e80e42ba4031c0d973fa52" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1c081854506aed2f757f753e779bc45f" category="paragraph">O BlueXP  não oferece suporte à criação de volumes FlexGroup. Você precisará continuar usando o Gerenciador do sistema ou a CLI para criar volumes do FlexGroup.</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">18 de setembro de 2022</block>
-  <block id="440be74a67502f9c3d55890782329328" category="paragraph">As seguintes alterações foram introduzidas com a versão 3.9.22 do conetor.</block>
   <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">Nova página de visão geral</block>
   <block id="8e41db9b51f790909ef80a064153f722" category="paragraph">Introduzimos uma nova página de visão geral para fornecer os principais detalhes sobre um cluster ONTAP no local. Por exemplo, agora é possível visualizar detalhes como eficiência de storage, distribuição de capacidade e informações do sistema.</block>
   <block id="d35ea0fa6a3d81047f0a36a7dfac1c07" category="paragraph">Também é possível visualizar detalhes sobre a integração com outros serviços do BlueXP  que permitem categorização de dados, replicação de dados e backups.</block>
@@ -512,7 +509,6 @@
   <block id="2f82cdfc06b6747c85937b5cceabaaee" category="inline-image-macro">Uma captura de tela que mostra a página volumes para um cluster ONTAP no local.</block>
   <block id="ae2cf98bd081450f4b6cbdeff70edb4d" category="paragraph"><block ref="ae2cf98bd081450f4b6cbdeff70edb4d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f8b475a3fefebada77a30229238d0a1a" category="section-title">7 de junho de 2022</block>
-  <block id="4f03a5c652641013d1e43811930f5769" category="paragraph">A seguinte alteração foi introduzida com a versão 3.9.19 do conetor.</block>
   <block id="ffe3ec3b5faef58a758d9449470882a0" category="section-title">Nova Vista Avançada</block>
   <block id="5549a52d6578bcb66138c7319ef4ea11" category="paragraph">Se você precisar executar o gerenciamento avançado de um cluster ONTAP no local, use o Gerenciador de sistemas do ONTAP, que é uma interface de gerenciamento fornecida com um sistema ONTAP. Incluímos a interface do System Manager diretamente no Cloud Manager para que você não precise sair do Cloud Manager para gerenciamento avançado.</block>
   <block id="99721ad2e6d601b2966a9d9e1c7de770" category="paragraph">Essa visualização avançada está disponível como prévia com clusters ONTAP locais executando o 9.10.0 ou posterior. Planejamos refinar essa experiência e adicionar melhorias nos próximos lançamentos. Por favor, envie-nos feedback usando o chat no produto.</block>
@@ -541,4 +537,7 @@
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">O que há de novo</block>
   <block id="d3db502b671c154b98dfced0b397de36" category="sidebar">Exibir informações do cluster e detalhes do contrato</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conhecimento e apoio</block>
+  <block id="613fbbb3f2dbf238c8527a537252e8ed" category="doc">Suporte para sistemas ASA R2 com modo privado</block>
+  <block id="0d9e2244b8fb5d13651efe34b9723803" category="paragraph">Agora você pode descobrir os sistemas NetApp ASA R2 ao usar o BlueXP  no modo privado. Este suporte está disponível a partir da versão 3.9.46 do modo privado do BlueXP .</block>
+  <block id="d415b73567ff8e090cdf21c20afeaa64" category="section-title">26 de novembro de 2024</block>
 </blocks>
