@@ -16,4 +16,7 @@ summary: A carteira digital da BlueXP  permite visualizar os detalhes do contra
 [role="lead"]
 A carteira digital da BlueXP  permite visualizar os detalhes do contrato de cada um dos clusters do ONTAP no local. Se você ainda não descobriu um cluster no BlueXP , você também pode fazer isso a partir da carteira digital.
 
+.Função BlueXP necessária:
+Administrador da organização ou administrador da pasta ou do projeto. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre as funções de acesso do BlueXP ."^]
+
 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["Saiba mais sobre como gerenciar licenças para clusters ONTAP on-premise a partir da carteira digital da BlueXP "^]

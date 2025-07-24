@@ -21,7 +21,7 @@ O BlueXP  pode descobrir os clusters ONTAP executados em controladoras AFF/FAS 
 == Caraterísticas
 
 * Gerenciar volumes NFS e CIFS
-* Execute o gerenciamento avançado usando o Gerenciador do sistema do ONTAP
+* Acesse o ONTAP System Manager para qualquer cluster gerenciado por meio do BlueXP
 * Tenha observabilidade de integridade e performance com análise e controle do BlueXP 
 * Use os serviços do BlueXP  para replicar, fazer backup, verificar, classificar e categorizar dados
 * Veja as informações de status do contrato de hardware e software na carteira digital da BlueXP 
@@ -35,7 +35,7 @@ Um custo pode estar associado, mas depende do seguinte:
 
 * Quer você implante um conetor para descobrir e gerenciar seus clusters.
 +
-É possível instalar o conector na nuvem ou no local.
+Você pode instalar o Conector na nuvem ou em suas instalações. A instalação de um Conector na nuvem acarreta custos.
 
 * Não importa se você usa serviços do BlueXP , como backup e recuperação, disposição em categorias e classificação.
 

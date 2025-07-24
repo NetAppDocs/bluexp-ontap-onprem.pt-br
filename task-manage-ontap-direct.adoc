@@ -14,7 +14,10 @@ summary: Se você descobriu seu cluster do ONTAP no local diretamente sem usar u
 
 
 [role="lead"]
-Se você descobriu seu cluster do ONTAP no local diretamente sem usar um conector, pode abrir o ambiente de trabalho para gerenciar o cluster usando o Gerenciador de sistema.
+Se você descobriu seu cluster ONTAP local diretamente, sem usar um conector, pode abrir o ambiente de trabalho para gerenciar o cluster usando o ONTAP System Manager.
+
+.Função BlueXP necessária:
+Administrador da organização, administrador de pasta ou projeto, administrador de armazenamento ou especialista em integridade do sistema. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre as funções de acesso do BlueXP ."^]
 
 .Antes de começar
 O computador que você está usando para acessar o console do BlueXP  deve ter uma conexão de rede com o cluster do ONTAP no local, semelhante a como você forneceria conexões com outros recursos em sua rede privada.
@@ -34,7 +37,7 @@ image:screenshot-direct-discovery-we.png["Uma captura de tela do ícone do ambie
 
 . Se solicitado, insira suas credenciais do ONTAP.
 +
-Você será solicitado a fazer login com suas credenciais do ONTAP sempre que abrir o ambiente de trabalho, se você não salvar as credenciais. Você tem a opção de salvar as credenciais para que você não precise inseri-las cada vez. Se você usar essa opção, as credenciais serão associadas somente ao usuário do BlueXP . Eles não são salvos para uso por qualquer outra pessoa em sua conta.
+Você será solicitado a efetuar login com suas credenciais do ONTAP sempre que abrir o ambiente de trabalho, caso não as salve. Você tem a opção de salvar as credenciais para não precisar digitá-las sempre. Você pode gerenciar essas credenciais na página Credenciais do Usuário. Em alguns casos, o administrador do BlueXP (função de administrador da organização) pode ter desativado essa opção e exigir que você insira suas credenciais sempre.
 
 +
 image:screenshot-credentials.png["Uma captura de tela que mostra o prompt para inserir o nome de usuário e a senha de um cluster do ONTAP."]
